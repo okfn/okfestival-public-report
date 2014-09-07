@@ -1,0 +1,12 @@
+# Site settings
+title: Open Knowledge Festival Public Report
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  TODO add description
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://2014.okfestival.org" # the base hostname & protocol for your site
+twitter_username: annabelchurch
+github_username:  arc64
+
+# Build settings
+markdown: kramdown
