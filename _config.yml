@@ -3,7 +3,7 @@ title: Open Knowledge Festival Public Report
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   TODO add description
-baseurl: "okfestival-public-report" # the subpath of your site, e.g. /blog/
+baseurl: "/okfestival-public-report/" # the subpath of your site, e.g. /blog/
 url: "http://2014.okfestival.org" # the base hostname & protocol for your site
 twitter_username: annabelchurch
 github_username:  arc64
