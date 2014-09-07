@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   TODO add description
 baseurl: "/okfestival-public-report/" # the subpath of your site, e.g. /blog/
 url: "http://2014.okfestival.org" # the base hostname & protocol for your site
-twitter_username: annabelchurch
-github_username:  arc64
+twitter_username:
+github_username:
 
 # Build settings
 markdown: kramdown
