@@ -19,7 +19,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background: url("/static/images/tile.png") $background-color repeat;
 }
 
 
@@ -79,7 +79,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 
@@ -96,8 +98,8 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+       // color: $text-color;
+        color: $link-color-dark;
     }
 }
 

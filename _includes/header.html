@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.event }} <span>{{ site.title }}</span></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -17,7 +17,7 @@
         {% assign sorted_pages = (site.pages | sort: 'order') %}
         {% for page in sorted_pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}{{ page.weight }}</a>
+          <a class="page-link {{page.class}}-color" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}{{ page.weight }}</a>
           {% endif %}
         {% endfor %}
       </div>

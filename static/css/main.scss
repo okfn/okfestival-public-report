@@ -3,27 +3,42 @@
 ---
 @charset "utf-8";
 
-
-
+// Jockey One = headings (google font)
+// Lato = body (google font)
+//font-family: 'Jockey One', sans-serif;
+//font-family: 'Lato', sans-serif;
+//font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Lato', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
+$heading-font-family: 'Jockey One', Helvetica, Arial, sans-serif;
 $small-font-size:  $base-font-size * 0.875;
+$large-font-size:  $base-font-size * 2;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #333333;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #ff5343;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$link-color-light: #534a66;
+$link-color-dark: #8e83a5;
 
+$on-palm:          600px;
+$on-laptop:        900px;
+
+$thank-you-color: #b73d5d;
+$how-was-it-color: #8686BC;
+$what-you-did-color: #A5A843;
+$what-people-said-color: #63A2E0;
+$who-was-there-color: #ADCC0D;
+$in-numbers-color: #544B66;
+$what-can-you-do-color: #CF3A4D;
 
 
 // Using media queries with like this:

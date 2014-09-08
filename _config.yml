@@ -1,5 +1,6 @@
 # Site settings
-title: Open Knowledge Festival Public Report
+title: Public Report
+event: OK Festival
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   TODO add description
