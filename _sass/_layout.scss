@@ -253,10 +253,17 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    //todo: iconify
-    background-image: url("/static/images/icon-thank-you.png");
-    background-repeat: no-repeat;
     min-height: 120px;
+
+    h1 {
+        background-repeat: no-repeat;
+    }
+
+    @each $section in $sections {
+      .#{nth($section, 1)} & h1 {
+        background-image: url("/static/images/icon-#{nth($section, 1)}.svg");
+      }
+    }
 
 }
 
