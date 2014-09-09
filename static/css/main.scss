@@ -13,12 +13,13 @@ $base-font-family: 'Lato', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $heading-font-family: 'Jockey One', Helvetica, Arial, sans-serif;
 $small-font-size:  $base-font-size * 0.875;
-$large-font-size:  $base-font-size * 2;
+$large-font-size:  $base-font-size * 2.875; // 46px;
+$xlarge-font-size: $base-font-size * 3.625; // 58px;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #333333;
+$text-color:       #666;
 $background-color: #fdfdfd;
 $brand-color:      #ff5343;
 
@@ -31,7 +32,7 @@ $link-color-light: #8e83a5;
 
 $on-palm:          600px;
 $on-laptop:        900px;
-$wrapper-width:    940px;
+$wrapper-width:    900px;
 
 $thank-you-color: #b73d5d;
 $how-was-it-color: #8686BC;

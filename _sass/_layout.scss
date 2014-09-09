@@ -26,6 +26,7 @@
     line-height: 56px;
     // letter-spacing: -1px;
     margin-bottom: 0;
+    padding-bottom: 8px;
     text-align: center;
     display: block;
 
@@ -213,6 +214,28 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    .thank-you-color h1 {
+        color: $thank-you-color;
+    }
+    .how-was-it-color h1 {
+        color: $how-was-it-color;
+    }
+    .what-you-did-color h1 {
+        color: $what-you-did-color;
+    }
+    .what-people-said-color h1 {
+        color: $what-people-said-color;
+    }
+    .who-was-there-color h1 {
+        color: $who-was-there-color;
+    }
+    .in-numbers-color h1 {
+        color: $in-numbers-color;
+    }
+    .what-can-you-do-color h1 {
+        color: $what-can-you-do-color;
+    }
 }
 
 .page-heading {
@@ -245,17 +268,26 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    //todo: iconify
+    background-image: url("/static/images/icon-thank-you.png");
+    background-repeat: no-repeat;
+    min-height: 120px;
 
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding-top: 0.50em;
+    padding-bottom: 0.1em;
+    margin-left: 126px;
+    border-bottom: 3px solid;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+
 }
 
 .post-content {

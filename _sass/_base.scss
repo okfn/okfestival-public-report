@@ -14,12 +14,16 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    padding-top: 2px;
+    background-position-x: 158px;
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background: url("/static/images/tile.png") $background-color repeat;
+    background-image: url("/static/images/tile.png");
+    background-color: $background-color;
+    background-repeat: repeat;
 }
 
 
