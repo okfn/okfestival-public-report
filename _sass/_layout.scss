@@ -253,14 +253,10 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    min-height: 120px;
-
-    h1 {
-        background-repeat: no-repeat;
-    }
+    background-repeat: no-repeat;
 
     @each $section in $sections {
-      .#{nth($section, 1)} & h1 {
+      .#{nth($section, 1)} & {
         background-image: url("/static/images/icon-#{nth($section, 1)}.svg");
       }
     }
@@ -271,9 +267,9 @@
     font-size: 58px;
     letter-spacing: 1px;
     line-height: 1em;
-    padding-top: 0.50em;
     padding-bottom: 0.1em;
-    margin-left: 126px;
+    margin-left: 90px;
+    min-height: 59px;
     border-bottom: 3px solid;
 
     @include media-query($on-laptop) {
