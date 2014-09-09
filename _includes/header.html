@@ -4,6 +4,9 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.event }} <span>{{ site.title }}</span></a>
 
+  </div>
+
+  <div class="wrapper wrapper-wide">
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -15,14 +18,21 @@
 
       <div class="trigger">
         {% assign sorted_pages = (site.pages | sort: 'order') %}
-        {% for page in sorted_pages %}
-          {% if page.title %}
-          <a class="page-link {{page.class}}-color" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}{{ page.weight }}</a>
+
+        {% for item in sorted_pages %}
+
+          {% assign current = '' %}
+          {% if item.url == page.url %}
+            {% assign current = ' current' %}
           {% endif %}
+
+          {% if item.title %}
+          <a class="page-link{{current}}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+          {% endif %}
+
         {% endfor %}
       </div>
     </nav>
-
   </div>
 
 </header>

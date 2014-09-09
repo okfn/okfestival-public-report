@@ -7,6 +7,15 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
+    .wrapper-wide {
+        background-color: #fff;
+        opacity: 0.8;
+        -moz-box-shadow:    0 3px 2px 0 #ccc;
+        -webkit-box-shadow: 0 3px 2px 0 #ccc;
+        box-shadow:         0 3px 2px 0 #ccc;
+        border-top: 1px solid #eee;
+
+    }
 }
 
 .site-title {
@@ -54,25 +63,31 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+    text-align: center;
+    line-height: 2;
     text-transform: uppercase;
     font-family: $heading-font-family;
-    background-color: #fff;
-    opacity: 0.8;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $link-color-light;
+        color: $link-color-dark;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
+
+        &:hover {
+            color: $link-color-light;
+        }
+    }
+
+    .current {
+        color: $link-color-light;
     }
 
     @include media-query($on-palm) {
@@ -230,6 +245,7 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
 }
 
 .post-title {
