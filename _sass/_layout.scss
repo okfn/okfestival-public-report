@@ -215,27 +215,12 @@
 .page-content {
     padding: $spacing-unit 0;
 
-    .thank-you-color h1 {
-        color: $thank-you-color;
+    @each $section in $sections {
+      .#{nth($section, 1)} h1 {
+        color: nth($section, 2);
+      }
     }
-    .how-was-it-color h1 {
-        color: $how-was-it-color;
-    }
-    .what-you-did-color h1 {
-        color: $what-you-did-color;
-    }
-    .what-people-said-color h1 {
-        color: $what-people-said-color;
-    }
-    .who-was-there-color h1 {
-        color: $who-was-there-color;
-    }
-    .in-numbers-color h1 {
-        color: $in-numbers-color;
-    }
-    .what-can-you-do-color h1 {
-        color: $what-can-you-do-color;
-    }
+
 }
 
 .page-heading {

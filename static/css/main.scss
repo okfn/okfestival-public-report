@@ -34,14 +34,21 @@ $on-palm:          600px;
 $on-laptop:        900px;
 $wrapper-width:    900px;
 
-$thank-you-color: #b73d5d;
-$how-was-it-color: #8686BC;
-$what-you-did-color: #A5A843;
-$what-people-said-color: #63A2E0;
-$who-was-there-color: #ADCC0D;
-$in-numbers-color: #544B66;
-$what-can-you-do-color: #CF3A4D;
+// $thank-you-color: #b73d5d;
+// $how-was-it-color: #8686BC;
+// $what-you-did-color: #A5A843;
+// $what-people-said-color: #63A2E0;
+// $who-was-there-color: #ADCC0D;
+// $in-numbers-color: #544B66;
+// $what-can-you-do-color: #CF3A4D;
 
+$sections: (thank-you #b73d5d)
+           (how-was-it #8686BC)
+           (what-you-did #A5A843)
+           (what-people-said #63A2E0)
+           (who-was-there #ADCC0D)
+           (in-numbers #544B66)
+           (what-can-you-do #CF3A4D);
 
 // Using media queries with like this:
 // @include media-query($palm) {
