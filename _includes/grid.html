@@ -7,7 +7,7 @@
             {% for item in site.pages %}
             {% if item.category contains page.identifier %}
             <li class="item">
-                <a href="{{ site.baseurl }}/pages/{{ item.path }}" title="{{ item.title }}">
+                <a href="{{ site.baseurl }}{{ item.permalink }}" title="{{ item.title }}">
                     <figure>
                         <img src="{{ site.baseurl }}/pages/{{ item.category }}/img/thumb/{{ item.photo }}" alt="{{ item.photo.alt }}"/>
                         <figcaption>

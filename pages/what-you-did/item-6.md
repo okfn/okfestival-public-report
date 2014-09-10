@@ -1,4 +1,5 @@
 ---
+layout: page
 
 category: what-you-did
 path: item-5

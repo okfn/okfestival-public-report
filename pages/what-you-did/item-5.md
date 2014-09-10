@@ -1,4 +1,5 @@
 ---
+layout: post
 
 category: what-you-did
 path: item-5
