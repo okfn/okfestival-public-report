@@ -10,5 +10,6 @@ photo_caption: what is that image?
 caption_header: Sample header
 caption: sample caption
 
+title: lalala
 
 ---
