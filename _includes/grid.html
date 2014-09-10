@@ -1,0 +1,38 @@
+<div id="gallery" class="gallery">
+
+    <section>
+        <ul class="grid">
+            <li class="grid-sizer"></li>
+
+            {% for item in site.pages %}
+            {% if item.category contains page.identifier %}
+            <li class="item">
+                <a href="{{ site.baseurl }}/pages/{{ item.path }}" title="{{ item.title }}">
+                    <figure>
+                        <img src="{{ site.baseurl }}/pages/{{ item.category }}/img/thumb/{{ item.photo }}" alt="{{ item.photo.alt }}"/>
+                        <figcaption>
+                         <!--    <h3>{{ item.caption_header}}</h3> -->
+                            <p>{{ item.caption }}</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </section>
+
+</div>
+
+<script src="{{ "/static/js/vendor/masonry.pkgd.min.js" | prepend: site.baseurl }}" ></script>
+
+<script>
+
+var container = document.getElementById('gallery');
+var msnry = new Masonry( container, {
+  itemSelector: 'li',
+  columnWidth: container.querySelector( '.grid-sizer' ),
+  gutter: 10
+});
+
+</script>
