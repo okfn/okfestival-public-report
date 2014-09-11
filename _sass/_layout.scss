@@ -358,10 +358,24 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-family: $base-font-family;
+        font-size: $medium-font-size;
+        color: #fff;
+        line-height: 1.7;
+        padding-left: 9px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
+        }
+
+        @each $section in $sections {
+            .#{nth($section, 1)} & {
+                background-color: nth($section, 2);
+            }
+
+            .#{nth($section, 1)} & small {
+                color: nth($section, 2);
+            }
         }
     }
 
@@ -449,16 +463,6 @@
             text-align: center;
             font-size: $larger-font-size;
             line-height: 1;
-
-            @each $section in $sections {
-                .#{nth($section, 1)} & {
-                    background-color: nth($section, 2);
-                }
-
-                .#{nth($section, 1)} & small {
-                    color: nth($section, 2);
-                }
-            }
 
             small {
                 clear: both;

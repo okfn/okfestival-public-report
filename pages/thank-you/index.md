@@ -7,7 +7,7 @@ order: 1
 identifier: thank-you
 ---
 
-## OKFestival 2014: we made it! A write-up &amp; Thank You note
+### OKFestival 2014: we made it! A write-up &amp; Thank You note
 
 Open Knowledge Festival 2014! We built it, made it and ran it – it was a blast, thank you!
 
