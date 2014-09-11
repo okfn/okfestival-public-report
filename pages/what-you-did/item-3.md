@@ -1,10 +1,9 @@
 ---
 layout: page
-
 category: what-you-did
-path: item-3
 
-photo: 4.png
+gallery_item:
+    photo: 4.png
 photo_caption: what is that image?
 
 caption_header: Sample header
