@@ -1,4 +1,26 @@
 ---
+
 layout: page
 permalink: /
+
 ---
+
+{% assign sorted_pages = (site.pages | sort: 'order') %}
+{% for item in sorted_pages %}
+    {% if item.order != null %}
+    <section class="{{ item.identifier }}">
+        <div class="section">
+            <a class="section-link" href="{{ item.url | prepend: site.baseurl }}">
+                <div class="section-wrapper">
+
+                    <h1 class="post-title">{{ item.title }}</h1>
+                    {% if item.description != null %}
+                        <p class="post-description">{{ item.description }}</p>
+                    {% endif %}
+
+                </div>
+            </a>
+        </div>
+    </section>
+    {% endif %}
+{% endfor %}

@@ -19,12 +19,15 @@
 }
 
 .site-title {
+    background: url("../images/okfest-logo.svg") no-repeat 50% 20px;
+    background-size: 250px 94px;
+
+    font-family: $heading-font-family;
     font-size: $large-font-size;
-    color: $link-color-dark;
     text-transform: uppercase;
 
     line-height: 56px;
-    // letter-spacing: -1px;
+    letter-spacing: 1px;
     margin-bottom: 0;
     padding-bottom: 8px;
     text-align: center;
@@ -32,10 +35,16 @@
 
     border-bottom: 2px solid $brand-color;
 
+    strong {
+        color: $link-color-light;
+    }
 
     span {
-        font-family: $heading-font-family;
-        color: $link-color-light;
+        text-indent: -999em;
+        clear: left;
+        display: block;
+        margin-bottom: 60px;
+
         letter-spacing: 2px;
 
         &,
@@ -76,7 +85,7 @@
     .page-link {
         color: $link-color-dark;
         line-height: $base-line-height;
-
+        white-space: nowrap;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
@@ -246,36 +255,98 @@
     font-size: 24px;
 }
 
-
-
-/**
- * Posts
- */
 .post-header {
     margin-bottom: $spacing-unit;
-    background-repeat: no-repeat;
-
-    @each $section in $sections {
-      .#{nth($section, 1)} & {
-        background-image: url("/static/images/icon-#{nth($section, 1)}.svg");
-      }
-    }
-
 }
 
 .post-title {
-    font-size: 58px;
+
+    &:before {
+        background-repeat: no-repeat;
+        display: block;
+        content: '';
+        height: 68px;
+        width: 82px;
+        position: absolute;
+        margin-left: -88px;
+        margin-top: 1px;
+    }
+
+    @each $section in $sections {
+        .#{nth($section, 1)} &:before {
+            background-image: url("/static/images/icon-#{nth($section, 1)}.svg");
+        }
+    }
+}
+
+.post-title {
+    font-size: $xlarge-font-size;
     letter-spacing: 1px;
     line-height: 1em;
     padding-bottom: 0.1em;
     margin-left: 90px;
-    min-height: 59px;
+
     border-bottom: 3px solid;
 
-    @include media-query($on-laptop) {
+    @include media-query($on-palm) {
         font-size: 36px;
     }
 
+}
+
+.section {
+
+    & .section-wrapper {
+        @each $section in $sections {
+            .#{nth($section, 1)} & {
+                background-color: nth($section, 2);
+            }
+        }
+
+        display: block;
+        overflow: hidden;
+    }
+
+    & .section-link {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        margin-bottom: 20px;
+        display: block;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        @each $section in $sections {
+            .#{nth($section, 1)} & {
+                background-image: url("/static/images/header-#{nth($section, 1)}.png");
+            }
+        }
+    }
+
+    .post-title {
+        border-bottom: none;
+        color: #fff !important;
+        float: left;
+        margin-bottom: 0;
+
+        @include media-query($on-palm) {
+            float: center;
+        }
+    }
+
+    .post-description {
+        color: #fff !important;
+        float: right;
+        margin: 0 20px 0 0;
+        line-height: 59px;
+
+        @include media-query($on-palm) {
+            margin: 0 0 0 90px;
+            line-height: 20px;
+            float: left;
+        }
+    }
 }
 
 .post-description {
@@ -324,11 +395,6 @@
         margin: 0;
         padding: 0;
 
-        // .grid-sizer {
-        //     margin: 0;
-        //     padding: 0;
-        // }
-
         li {
             width: calc(33.3% - 7px);
             width: -webkit-calc(calc(33.3% - 7px));
@@ -356,8 +422,6 @@
                 color: nth($section, 2);
               }
             }
-
-            margin-bottom: 20px;
         }
 
     }
@@ -370,7 +434,7 @@
 
         figcaption {
             background: #fff;
-            padding: 15px;
+            padding: 15px 0;
         }
 
         img {
@@ -380,13 +444,42 @@
 
         h3 {
             margin: 0;
-            padding: 0 0 0.5em;
+            color: #fff;
+            text-align: center;
+            font-size: $larger-font-size;
+            line-height: 1;
+
+            @each $section in $sections {
+                .#{nth($section, 1)} & {
+                    background-color: nth($section, 2);
+                }
+
+                .#{nth($section, 1)} & small {
+                    color: nth($section, 2);
+                }
+            }
+
+            small {
+                clear: both;
+                display: block;
+                background-color: white;
+                padding-top: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: $small-font-size;
+
+            }
         }
 
         p {
             margin: 0;
+            padding-left: 15px;
+            padding-right: 15px;
         }
     }
 }
 
-
+// hack
+.what-you-did .item {
+    margin-bottom: 10px;
+}

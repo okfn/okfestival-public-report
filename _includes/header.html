@@ -1,9 +1,7 @@
 <header class="site-header">
 
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.event }} <span>{{ site.title }}</span></a>
-
+    <a class="site-title" href="{{ site.baseurl }}/" rel="home"><span class="okfest-logo">Open Knowledge Festival 2014</span>Public <strong>Report</strong></a>
   </div>
 
   <div class="wrapper wrapper-wide">
@@ -20,16 +18,16 @@
         {% assign sorted_pages = (site.pages | sort: 'order') %}
 
         {% for item in sorted_pages %}
+          {% if item.order != null %}
 
           {% assign current = '' %}
           {% if item.url == page.url %}
             {% assign current = ' current' %}
           {% endif %}
 
-          {% if item.title %}
           <a class="page-link{{current}}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-          {% endif %}
 
+          {% endif %}
         {% endfor %}
       </div>
     </nav>

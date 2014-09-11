@@ -14,6 +14,7 @@ $base-font-size:   16px;
 $heading-font-family: 'Jockey One', Helvetica, Arial, sans-serif;
 $small-font-size:  $base-font-size * 0.875;
 $large-font-size:  $base-font-size * 2.875; // 46px;
+$larger-font-size: $base-font-size * 3.12;  // 36px;
 $xlarge-font-size: $base-font-size * 3.625; // 58px;
 $base-line-height: 1.5;
 
@@ -27,8 +28,8 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$link-color-dark: #534a66;
-$link-color-light: #8e83a5;
+$link-color-dark: #666;
+$link-color-light: #333;
 
 $on-palm:          600px;
 $on-laptop:        900px;

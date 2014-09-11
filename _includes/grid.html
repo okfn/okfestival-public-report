@@ -7,12 +7,14 @@
             {% for item in site.pages %}
             {% if item.category contains page.identifier %}
             <li class="item">
-                <a href="{{ site.baseurl }}{{ item.permalink }}" title="{{ item.title }}">
+                <a href="{{ site.baseurl }}{{ item.url }}" title="{{ item.gallery_item.photo_caption }}">
                     <figure>
-                        <img src="{{ site.baseurl }}/pages/{{ item.category }}/img/thumb/{{ item.photo }}" alt="{{ item.photo.alt }}"/>
+                        <img src="{{ site.baseurl }}/pages/{{ item.category }}/img/{{ item.gallery_item.photo }}" alt="{{ item.gallery_item.photo.alt }}"/>
                         <figcaption>
-                         <!--    <h3>{{ item.caption_header}}</h3> -->
-                            <p>{{ item.caption }}</p>
+                            {% if item.gallery_item.header != null %}
+                            <h3>{% if item.gallery_item.data != null %}{{ item.gallery_item.data }}{% endif %}<small>{{ item.gallery_item.header }}</small></h3>
+                            {% endif %}
+                            <p>{{ item.gallery_item.caption }}</p>
                         </figcaption>
                     </figure>
                 </a>

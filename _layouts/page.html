@@ -4,12 +4,14 @@ layout: default
 
 <div class="post {{ page.identifier }}">
 
+  {% if page.title != null %}
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.description != blank %}
+    {% if page.description != null %}
         <p class="post-description">{{ page.description }}</p>
     {% endif %}
   </header>
+  {% endif %}
 
   <article class="post-content">
     {{ content }}
