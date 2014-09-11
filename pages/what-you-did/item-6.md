@@ -1,6 +1,7 @@
 ---
 layout: page
-category: what-you-did
+permalink: what-you-did/governments/
+identifier: what-you-did
 
 gallery_item:
     photo: 4.png

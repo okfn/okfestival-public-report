@@ -5,6 +5,7 @@ description: Take action!
 permalink: /what-you-can-do-now/
 order: 7
 identifier: what-you-can-do-now
+
 ---
 
 ## This content needs to be reviewed - confirm with Neal
