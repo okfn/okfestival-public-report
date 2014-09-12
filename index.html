@@ -7,7 +7,9 @@ identifier: index
 
 {% assign sorted_pages = (site.pages | sort: 'order') %}
 {% for item in sorted_pages %}
-    {% if item.order != null %}
+    {% assign depth = (item.url | replace:  '/' , ' ' | number_of_words) %}
+
+    {% if item.order != null and depth == 1 %}
     <section class="{{ item.identifier }}">
         <div class="section">
             <a class="section-link" href="{{ item.url | prepend: site.baseurl }}">

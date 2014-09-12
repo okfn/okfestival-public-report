@@ -299,6 +299,10 @@
         .#{nth($section, 1)} &:before {
             background-image: url("/static/images/icon-#{nth($section, 1)}.svg");
         }
+
+        .index .#{nth($section, 1)} &:before {
+            background-image: url("/static/images/icon-white-#{nth($section, 1)}.svg");
+        }
     }
 }
 
@@ -328,6 +332,9 @@
 
         display: block;
         overflow: hidden;
+        -webkit-box-shadow: 0 8px 6px -6px #605E5E;
+        -moz-box-shadow: 0 8px 6px -6px #605E5E;
+        box-shadow: 0 8px 6px -6px #605E5E;
     }
 
     & .section-link {
@@ -356,13 +363,24 @@
         @include media-query($on-palm) {
             float: center;
         }
+
+        & {
+            line-height: 1.4em;
+            padding-bottom: 0;
+            padding-left: 40px;
+        }
+
+        &:before {
+            margin-top: 5px;
+        }
+
     }
 
     .post-description {
         color: #fff !important;
         float: right;
         margin: 0 20px 0 0;
-        line-height: 59px;
+        line-height: 78px;
 
         @include media-query($on-palm) {
             margin: 0 0 0 90px;
