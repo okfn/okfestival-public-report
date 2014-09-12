@@ -145,7 +145,30 @@
     }
 }
 
+.sub-nav {
 
+    margin-left: 86px;
+    text-transform: uppercase;
+
+    a {
+        color: #fff;
+        padding: 5px;
+
+        &.current {
+            color: #fff !important;
+        }
+
+        @each $section in $sections {
+            .#{nth($section, 1)} & {
+                color: nth($section, 2);
+            }
+
+            .#{nth($section, 1)} &.current {
+                background-color: nth($section, 2);
+            }
+        }
+    }
+}
 
 /**
  * Site footer
@@ -370,8 +393,7 @@
 
     }
 
-    h2,
-    .sub-nav a {
+    h2 {
         font-family: $base-font-family;
         font-size: $medium-font-size;
         color: #fff;
