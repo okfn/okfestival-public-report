@@ -21,8 +21,11 @@ gallery_item:
 
 ---
 
-![Stef van Grieken](/pages/what-you-did/img/Stef van Grieken.png "Stef van Grieken")
-![Duncan Edwards](/pages/what-you-did/img/Duncan Edwards.jpg "Duncan Edwards")
+<div class="pull">
+{% include image.html filename="Stef van Grieken.png" alt="Stef van Grieken" caption="Stef van Grieken" %}
+{% include image.html filename="Duncan Edwards.jpg" alt="Duncan Edwards" caption="Duncan Edwards" %}
+</div>
+
 [Stef van Grieken](https://twitter.com/stefvangrieken) is the Technical Program Manager at [Google](http://www.google.com/about/). [Duncan Edwards](https://twitter.com/duncan_ids) works as [Making All Voices Count](http://www.makingallvoicescount.org/)'s Research & Evidence Programme Manager at the [Institute of Development Studies (IDS)](http://www.ids.ac.uk/). Together, they both share their views on why their organisations decided to sponsor OKFestival.
 
 ---

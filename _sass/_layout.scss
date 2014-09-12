@@ -357,6 +357,19 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
+    .pull {
+        img {
+            max-height: 250px;
+        }
+
+        figure {
+            float: right;
+            text-align: center;
+            margin-left: 20px;
+        }
+
+    }
+
     h2,
     .sub-nav a {
         font-family: $base-font-family;

@@ -21,8 +21,11 @@ gallery_item:
 
 ---
 
-![Anne Muigai](/pages/what-you-did/img/Anne Muigai.jpg "Anne Muigai")
-![Subhajit Ganguly](/pages/what-you-did/img/Subhajit Ganguly.jpg "Subhajit Ganguly")
+<div class="pull">
+{% include image.html filename="Anne Muigai.jpg" alt="Anne Muigai" caption="Anne Muigai" %}
+{% include image.html filename="Subhajit Ganguly.jpg" alt="Subhajit Ganguly" caption="Subhajit Ganguly" %}
+</div>
+
 [Anne Muigai](https://twitter.com/eebiejeebiez) is the Knowledge Lead at [Open Institute](http://www.openinstitute.com/), a think-do tank that brings together domain experts to provide technical and advisory services in the open data and open governance space. [Subhajit Ganguly](https://twitter.com/subhajitganguly) is Executive Director of Lawrence Anthony Earth Organization, works for restoring the balance in the natural environment and is the Ambassador for [Open Knowledge India](http://in.okfn.org/). From them, we learn how a financial aid programme can make a difference from a participant’s perspective and how OKFestival helped them in the positive change they aim to foster in their regions.
 
 ---
