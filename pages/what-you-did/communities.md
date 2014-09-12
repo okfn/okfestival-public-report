@@ -1,7 +1,10 @@
 ---
 layout: page
+parent_title: What You Did
+title: Communities
 permalink: what-you-did/communities/
 identifier: what-you-did
+order: 2
 
 gallery_item:
     photo: Jenny Molloy.jpg

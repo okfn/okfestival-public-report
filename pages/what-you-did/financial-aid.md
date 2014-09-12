@@ -1,7 +1,10 @@
 ---
 layout: page
+parent_title: What You Did
+title: Fiancial Aid
 permalink: what-you-did/financial-aid/
 identifier: what-you-did
+order: 5
 
 gallery_item:
     photo:  Anne Muigai.jpg

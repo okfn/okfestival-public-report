@@ -283,7 +283,7 @@
     font-size: $xlarge-font-size;
     letter-spacing: 1px;
     line-height: 1em;
-    padding-bottom: 0.1em;
+    padding-bottom: 0.13em;
     margin-left: 90px;
 
     border-bottom: 3px solid;
@@ -357,7 +357,8 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
+    h2,
+    .sub-nav a {
         font-family: $base-font-family;
         font-size: $medium-font-size;
         color: #fff;

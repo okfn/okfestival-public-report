@@ -3,13 +3,25 @@ layout: default
 ---
 
 <div class="post {{ page.identifier }}">
+  {% assign title = '' %}
+  {% if page.parent_title != null %}
+    {% assign title = page.parent_title %}
+    {% assign show_subnavigation = true %}
+  {% else %}
+    {% assign title = page.title %}
+  {% endif %}
 
   {% if page.title != null %}
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">{{ title }}</h1>
     {% if page.description != null %}
         <p class="post-description">{{ page.description }}</p>
+    {% elsif show_subnavigation %}
+        <nav class="sub-nav">
+        {% include navigation.html depth=2 %}
+        </nav>
     {% endif %}
+
   </header>
   {% endif %}
 

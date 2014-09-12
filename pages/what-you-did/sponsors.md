@@ -1,14 +1,17 @@
 ---
 layout: page
+parent_title: What You Did
+title: Sponsors
 permalink: what-you-did/sponsors/
 identifier: what-you-did
+order: 4
 
 gallery_item:
-    photo: 1.png
-    photo_caption: Was ist das?
+    photo: Stef van Grieken.png
+    photo_caption: Stef van Grieken
 
-    caption_header: Sample header
-    caption: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard the leap into electronic typesetting, remaining essentially unchanged.
+    caption_header: Stef van Grieken
+    caption: Stef van Grieken from Google and Duncan Edwards from Making All Voices Count tell us why their organisations decided to sponsor OKFestival 2014. We also find out how meeting the diverse crowd of OKFestival and participating in the event helped their work and upcoming projects.
 
 ---
 

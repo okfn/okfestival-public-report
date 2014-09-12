@@ -1,0 +1,19 @@
+
+{% comment %} Navigation item has a (url)depth and an (item)order {% endcomment %}
+
+        {% assign sorted_pages = (site.pages | sort: 'order') %}
+
+        {% for item in sorted_pages %}
+        {% assign depth = (item.url | replace:  '/' , ' ' | number_of_words) %}
+
+          {% if item.order != null and depth == include.depth %}
+
+          {% assign current = '' %}
+          {% if page.url contains item.url %}
+            {% assign current = ' current' %}
+          {% endif %}
+
+          <a class="page-link{{current}}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+
+          {% endif %}
+        {% endfor %}

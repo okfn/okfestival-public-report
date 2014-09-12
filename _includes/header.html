@@ -15,20 +15,7 @@
       </a>
 
       <div class="trigger">
-        {% assign sorted_pages = (site.pages | sort: 'order') %}
-
-        {% for item in sorted_pages %}
-          {% if item.order != null %}
-
-          {% assign current = '' %}
-          {% if item.url == page.url %}
-            {% assign current = ' current' %}
-          {% endif %}
-
-          <a class="page-link{{current}}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-
-          {% endif %}
-        {% endfor %}
+        {% include navigation.html depth=1 %}
       </div>
     </nav>
   </div>
