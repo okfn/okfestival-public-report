@@ -12,7 +12,7 @@ gallery_item:
           file: Hera Hussain.jpg
           alt: Hera Hussain
 
-    caption_header: Hera Hussain
+    caption_header: Flash Hacks
     caption: content pending
 
 ---

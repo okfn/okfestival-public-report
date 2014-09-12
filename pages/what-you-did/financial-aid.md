@@ -1,7 +1,7 @@
 ---
 layout: page
 parent_title: What You Did
-title: Fiancial Aid
+title: Financial Aid
 permalink: what-you-did/financial-aid/
 identifier: what-you-did
 order: 5
@@ -14,12 +14,12 @@ gallery_item:
         -
           file: Subhajit Ganguly.jpg
           alt: Subhajit Ganguly
-    caption_header: Anne Muigai
+    caption_header: Financial Aid
     caption: We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take always from the festival.
 
 ---
 
-## Fiancial Aid
+## Financial Aid
 
 <span class="summary">We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take always from the festival.</span>
 

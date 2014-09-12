@@ -23,9 +23,7 @@
             {% endfor %}
             </div>
 
-            {% if item.gallery_item.header != null %}
-            <h3>{% if item.gallery_item.data != null %}{{ item.gallery_item.data }}{% endif %}<small>{{ item.gallery_item.header }}</small></h3>
-            {% endif %}
+            <h2>{{ item.gallery_item.caption_header }}</h2>
 
             <p class="summary">{{ item.gallery_item.caption }}<span class="indicator">&#10095;&#10095;</span></p>
 
