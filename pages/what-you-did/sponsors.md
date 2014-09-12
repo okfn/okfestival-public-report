@@ -7,9 +7,13 @@ identifier: what-you-did
 order: 4
 
 gallery_item:
-    photo: Stef van Grieken.png
-    photo_caption: Stef van Grieken
-
+    photos:
+        -
+          file: Stef van Grieken.png
+          alt: Stef van Grieken
+        -
+          file: Duncan Edwards.jpg
+          alt: Duncan Edwards
     caption_header: Stef van Grieken
     caption: Stef van Grieken from Google and Duncan Edwards from Making All Voices Count tell us why their organisations decided to sponsor OKFestival 2014. We also find out how meeting the diverse crowd of OKFestival and participating in the event helped their work and upcoming projects.
 

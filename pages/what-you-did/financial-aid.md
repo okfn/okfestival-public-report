@@ -7,9 +7,13 @@ identifier: what-you-did
 order: 5
 
 gallery_item:
-    photo:  Anne Muigai.jpg
-    photo_caption:  Anne Muigai
-
+    photos:
+        -
+          file: Anne Muigai.jpg
+          alt: Anne Muigai
+        -
+          file: Subhajit Ganguly.jpg
+          alt: Subhajit Ganguly
     caption_header: Anne Muigai
     caption: We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take always from the festival.
 
@@ -22,8 +26,8 @@ gallery_item:
 ---
 
 <div class="pull">
-{% include image.html filename="Anne Muigai.jpg" alt="Anne Muigai" caption="Anne Muigai" %}
-{% include image.html filename="Subhajit Ganguly.jpg" alt="Subhajit Ganguly" caption="Subhajit Ganguly" %}
+{% include image.html filename="Anne Muigai.jpg" alt="Anne Muigai" %}
+{% include image.html filename="Subhajit Ganguly.jpg" alt="Subhajit Ganguly" %}
 </div>
 
 [Anne Muigai](https://twitter.com/eebiejeebiez) is the Knowledge Lead at [Open Institute](http://www.openinstitute.com/), a think-do tank that brings together domain experts to provide technical and advisory services in the open data and open governance space. [Subhajit Ganguly](https://twitter.com/subhajitganguly) is Executive Director of Lawrence Anthony Earth Organization, works for restoring the balance in the natural environment and is the Ambassador for [Open Knowledge India](http://in.okfn.org/). From them, we learn how a financial aid programme can make a difference from a participant’s perspective and how OKFestival helped them in the positive change they aim to foster in their regions.

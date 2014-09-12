@@ -1,24 +1,34 @@
-<div id="gallery" class="gallery">
+
+<div class="pull-grid">
 
     <section>
 
     {% for item in site.pages %}
-    {% comment %}This collects any sub-page that has the correct category and a depth of 2 {% endcomment %}
+
+    {% comment %}This collects any sub-page that has the correct category and a depth of 2. Yes, the image import is messy as a limitation of Liquid template parameters.
+    {% endcomment %}
 
     {% assign depth = (item.url | replace:  '/' , ' ' | number_of_words) %}
 
     {% if item.url contains page.identifier and depth == 2 %}
     <li class="item">
         <a href="{{ site.baseurl }}{{ item.url }}" title="{{ item.gallery_item.photo_caption }}">
-            <figure>
-                <img src="{{ site.baseurl }}/pages/{{ page.identifier }}/img/{{ item.gallery_item.photo }}" alt="{{ item.gallery_item.photo.alt }}"/>
-                <figcaption>
-                    {% if item.gallery_item.header != null %}
-                    <h3>{% if item.gallery_item.data != null %}{{ item.gallery_item.data }}{% endif %}<small>{{ item.gallery_item.header }}</small></h3>
-                    {% endif %}
-                    <p>{{ item.gallery_item.caption }}</p>
-                </figcaption>
-            </figure>
+            <div class="pull">
+            {% for image in item.gallery_item.photos %}
+                {% capture flparam %}{{ image.file}}{% endcapture %}{{stringified_template_params}}
+                {% capture altparam %}{{ image.alt }}{% endcapture %}{{stringified_template_params}}
+
+                {% include image.html filename=flparam alt=altparam %}
+
+            {% endfor %}
+            </div>
+
+            {% if item.gallery_item.header != null %}
+            <h3>{% if item.gallery_item.data != null %}{{ item.gallery_item.data }}{% endif %}<small>{{ item.gallery_item.header }}</small></h3>
+            {% endif %}
+
+            <p class="summary">{{ item.gallery_item.caption }}<span class="indicator">&#10095;&#10095;</span></p>
+
         </a>
     </li>
     {% endif %}
@@ -27,11 +37,4 @@
     </section>
 </div>
 
-<span class="summary">We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take always from the festival.</span>
 
----
-
-<div class="pull">
-{% include image.html filename="Anne Muigai.jpg" alt="Anne Muigai" caption="Anne Muigai" %}
-{% include image.html filename="Subhajit Ganguly.jpg" alt="Subhajit Ganguly" caption="Subhajit Ganguly" %}
-</div>

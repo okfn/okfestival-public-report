@@ -477,6 +477,20 @@
 }
 
 /* Grid */
+.pull-grid {
+    li {
+        border-bottom: 2px solid black;
+        list-style: none;
+        clear: both;
+        overflow: hidden;
+    }
+
+    @each $section in $sections {
+        .#{nth($section, 1)} & li {
+            border-color: nth($section, 2);
+        }
+    }
+}
 
 .gallery {
     .grid-wrap {

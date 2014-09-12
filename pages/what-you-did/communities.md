@@ -7,8 +7,13 @@ identifier: what-you-did
 order: 2
 
 gallery_item:
-    photo: Jenny Molloy.jpg
-    photo_caption: Jenny Molloy
+    photos:
+        -
+          file: Jenny Molloy.jpg
+          alt: Jenny Molloy
+        -
+          file: 600px-Joris_Pekel_bij_de_Wikimedia_Conferentie_Nederland_2012_-_Flickr_-_Sebastiaan_ter_Burg.jpg
+          alt: Joris Pekel
     caption_header: Communities
     caption: Open knowledge communities gather at OKFestival to tackle the complex challenges they are wrestling with and to gain a mutual understanding of what they have done, where they are and what the future holds for their community.
 

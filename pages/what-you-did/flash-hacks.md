@@ -7,8 +7,10 @@ identifier: what-you-did
 order: 3
 
 gallery_item:
-    photo: Hera Hussain.jpg
-    photo_caption: Hera Hussain
+    photos:
+        -
+          file: Hera Hussain.jpg
+          alt: Hera Hussain
 
     caption_header: Hera Hussain
     caption: content pending
