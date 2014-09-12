@@ -478,12 +478,22 @@
 
 /* Grid */
 .pull-grid {
+    .indicator {
+        margin-left: 0.5em;
+    }
+
     li {
         border-bottom: 2px solid black;
         list-style: none;
         clear: both;
         overflow: hidden;
     }
+
+    li:nth-child(odd) figure {
+        float: left;
+        margin-left: 0;
+        margin-right: 20px;
+     }
 
     @each $section in $sections {
         .#{nth($section, 1)} & li {
