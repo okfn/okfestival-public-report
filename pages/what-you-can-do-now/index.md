@@ -8,15 +8,23 @@ identifier: what-you-can-do-now
 
 ---
 
-If you’re interested in sharing your story or thoughts or ideas about OKFestival, write us at <a href="mailto:info@okfestival.org">info@okfestival.org</a>.
+Open Knowledge Festival 2014 is now wrapped-up, but our work to support the growth of the open movement never stops!
 
-* [get involved](https://okfn.org/get-involved/) with Open Knowledge
+## Share your story or thoughts or ideas
 
-* [donate](https://okfn.org/donate/) (to Open Knowledge) &amp; if you’re interested in sponsoring OKFestival [get in touch](http://2014.okfestival.org/support/)
+Write us at <a href="mailto:info@okfestival.org">info@okfestival.org</a> or find out more about storytelling and the OKFestival channels on the [wiki](http://wiki.okfn.org/OKFestival#.22.27Storytelling_at_OKFestival.22.27).
 
-* subscribe to the OKFestival and OK newsletters
+## Get Involved with Open Knowledge
 
-OK list form
+[Join the Open Knowledge Network](https://okfn.org/get-involved/), the folks that make OKFestival happen.
+
+## Sponsor the next OKFestival
+
+[Sponsor or get us in touch with sponsors](http://2014.okfestival.org/support/) for future OKFestivals and [support Open Knowledge’s work](https://okfn.org/donate/) with your donation.
+
+## Keep in touch
+
+Subscribe to the Open Knowledge Mailing List
 
 <form action="https://sendy.okfn.org/subscribe" method="POST" accept-charset="utf-8">
     <label for="name">Name</label><br/>
@@ -32,7 +40,8 @@ OK list form
     <input type="submit" name="submit" id="submit"/>
 </form>
 
-OKFestival list form
+
+Subscribe to the Open Knowledge Mailing List
 
 <form action="https://sendy.okfn.org/subscribe" method="POST" accept-charset="utf-8">
     <label for="name">Name</label><br/>
