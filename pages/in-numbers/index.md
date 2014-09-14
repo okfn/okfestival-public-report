@@ -21,7 +21,7 @@ identifier: in-numbers
 
 {% include image.html filename="03_where.png" alt="" caption="" %}
 
-## Gender?
+## Gender of facilitators &amp; participants
 
 {% include image.html filename="04_gender.png" alt="" caption="" %}
 
