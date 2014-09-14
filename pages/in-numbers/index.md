@@ -21,6 +21,10 @@ identifier: in-numbers
 
 {% include image.html filename="03_where.png" alt="" caption="" %}
 
+## Gender?
+
+{% include image.html filename="04_gender.png" alt="" caption="" %}
+
 ## Programme data?
 
 {% include image.html filename="05_programme.png" alt="" caption="" %}
@@ -35,5 +39,3 @@ identifier: in-numbers
 {% include image.html filename="06-2_drinks.png" alt="" caption="" %}
 {% include image.html filename="06-3_grafitti.png" alt="" caption="" %}
 
-
-## Gender - to come?
