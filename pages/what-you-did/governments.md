@@ -28,8 +28,8 @@ gallery_item:
 ---
 
 <div class="pull">
-{% include image.html filename="Ania Calderon.jpg" alt="Ania Calderon" caption="Ania Calderon" %}
-{% include image.html filename="Amadu Massally.jpg" alt="Amadu Massally" caption="Amadu Massally" %}
+{% include image.html filename="Ania_Calderon.jpg" alt="Ania Calderon" caption="Ania Calderon" %}
+{% include image.html filename="Amadu_Massally.jpg" alt="Amadu Massally" caption="Amadu Massally" %}
 </div>
 
 [Ania Calderón Mariscal](https://twitter.com/aniacalderon) is the General Director of Digital Innovation in the Office of the President of Mexico and [Amadu Massally](https://twitter.com/SaloneAmadu) is the Coordinator of [Open Government Initiative in Sierra Leone](http://ogi.gov.sl/), the entity in charge of collaborating with civil society to develop the country’s first Open Government Partnership. We talked with them about why they think OKFestival is a great opportunity for governments to push forward their open agenda.

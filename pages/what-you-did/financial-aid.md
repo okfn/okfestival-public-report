@@ -15,13 +15,13 @@ gallery_item:
           file: Subhajit_Ganguly.jpg
           alt: Subhajit Ganguly
     caption_header: Financial Aid
-    caption: We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take always from the festival.
+    caption: We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take aways from the festival.
 
 ---
 
 ## Financial Aid
 
-<span class="summary">We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take always from the festival.</span>
+<span class="summary">We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take aways from the festival.</span>
 
 ---
 
