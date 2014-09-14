@@ -3,8 +3,9 @@ layout: default
 ---
 
 <div class="post {{ page.identifier }}">
+
   {% assign title = '' %}
-  {% if page.parent_title != null %}
+  {% if page.parent_title %}
     {% assign title = page.parent_title %}
     {% assign show_subnavigation = true %}
   {% else %}
@@ -24,7 +25,6 @@ layout: default
 
   </header>
   {% endif %}
-
   <article class="post-content">
     {{ content }}
   </article>

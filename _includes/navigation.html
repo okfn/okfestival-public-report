@@ -1,3 +1,7 @@
+{%comment%}
+    parameters:
+    depth
+{%endcomment%}
 
 {% comment %} Navigation item has a (url)depth and an (item)order {% endcomment %}
 
@@ -6,14 +10,25 @@
         {% for item in sorted_pages %}
         {% assign depth = (item.url | replace:  '/' , ' ' | number_of_words) %}
 
-          {% if item.order != null and depth == include.depth %}
+          {% if item.order and depth == include.depth %}
 
-          {% assign current = '' %}
-          {% if page.url contains item.url %}
-            {% assign current = ' current' %}
-          {% endif %}
+            {% if depth > 1 %}
+              {% comment %}
+                  This is sub navigation
+              {% endcomment %}
 
-          <a class="page-link{{current}}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+              {% assign url_array = (page.url | split: '/') %}
+              {% assign parent = (url_array[1]) %}
+              {% if item.url contains parent %}
+                 {% include nav-link.html %}
+              {% endif %}
 
+            {% else %}
+              {% comment %}
+                  This is main navigation
+              {% endcomment %}
+              {% include nav-link.html %}
+
+            {% endif %}
           {% endif %}
         {% endfor %}
