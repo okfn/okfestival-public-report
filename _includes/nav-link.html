@@ -1,0 +1,6 @@
+{% assign current = '' %}
+{% if page.url contains item.url %}
+{% assign current = ' current' %}
+{% endif %}
+
+<a class="page-link{{current}}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>

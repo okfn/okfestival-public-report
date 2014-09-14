@@ -1,0 +1,20 @@
+{%comment%}
+    parameters:
+    cite
+    link
+    link_title
+    quote
+    img
+{%endcomment%}
+
+<figure class="quote">
+    {% if include.img %}
+        <img src="{{ include.img }}" />
+    {% endif %}
+    <blockquote cite="{{ include.link }}">{{ include.quote }}</blockquote>
+    {% if include.cite and include.cite != "" %}
+    <figcaption>
+        <cite><a href="{{ include.link }}" title="{{ include.cite }}">&mdash; {{ include.cite }}</a></cite>
+    </figcaption>
+    {% endif %}
+</figure>
