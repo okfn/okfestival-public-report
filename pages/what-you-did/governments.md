@@ -20,7 +20,7 @@ gallery_item:
 
 ---
 
-## Goverments
+## Governments
 
 <span class="summary">OKFestival provides government representatives from across Europe, Latin America, Asia and Africa a place to come together to share their experiences pushing for openness within government, to learn from their colleagues, to connect with the communities using government data and eager for greater access, and to see what is on the horizon of the open movement.
 </span>

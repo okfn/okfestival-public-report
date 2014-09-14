@@ -41,7 +41,7 @@ Subscribe to the Open Knowledge Mailing List
 </form>
 
 
-Subscribe to the Open Knowledge Mailing List
+Subscribe to the OKFestival list Mailing List
 
 <form action="https://sendy.okfn.org/subscribe" method="POST" accept-charset="utf-8">
     <label for="name">Name</label><br/>
