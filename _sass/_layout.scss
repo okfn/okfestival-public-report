@@ -487,7 +487,6 @@
 
         .#{nth($section, 1)} &  .summary {
             color: nth($section, 2);
-            font-size: $medium-font-size;
             font-size: 20px;
             line-height: 1.3;
         }
@@ -525,6 +524,10 @@
         }
     }
 }
+
+/***
+* Gallery
+***/
 
 .gallery {
     .grid-wrap {
@@ -612,9 +615,41 @@
     }
 }
 
+/*
+* Embeds
+*/
+
 iframe {
     margin: 0 auto;
     display: block;
     margin-bottom: 1.3em;
 }
 
+/*
+* Blockquotes
+*/
+
+
+.quote {
+    margin-bottom: 3em;
+
+    img {
+        float: left;
+        margin-right: 20px;
+        max-width: 350px;
+        max-height: 300px;
+    }
+}
+
+
+/* in numbers */
+.in-numbers {
+    h2{
+        clear: both;
+    }
+    iframe {
+        float: left;
+        margin-right: 1em;
+        display: block;
+    }
+}

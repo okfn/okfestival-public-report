@@ -113,18 +113,60 @@ a {
  */
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    // border-left: 4px solid $grey-color-light;
+    // padding-left: $spacing-unit / 2;
+    font-size: 20px;
     letter-spacing: -1px;
-    font-style: italic;
+    line-height: 1.5;
 
     > :last-child {
         margin-bottom: 0;
     }
+
+    quotes: "\201C" "\201D" "\2018" "\2019";
+
+    @each $section in $sections {
+        // .#{nth($section, 1)} & {
+        //     border-color: nth($section, 2);
+        // }
+
+        .#{nth($section, 1)} &:before,
+        .#{nth($section, 1)} &:after {
+            color: nth($section, 2);
+        }
+    }
+
+    &:before,
+    &:after {
+        font-family: $heading-font-family;
+        font-size: 3.1em;
+        line-height: 0.1em;
+        vertical-align: -0.4em;
+    }
+
+    &:before {
+        content: open-quote;
+        margin-right: 0.1em;
+    }
+
+    &:after {
+        content: close-quote;
+        margin-left: 0.1em;
+    }
 }
 
+cite,
+cite a {
+    color: #fff !important;
+    padding: 0.3em 0.5em;
+    font-style: normal;
 
+    @each $section in $sections {
+        .#{nth($section, 1)} & {
+            background-color: nth($section, 2);
+        }
+    }
+}
 
 /**
  * Code formatting
