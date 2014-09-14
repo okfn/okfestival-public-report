@@ -4,15 +4,15 @@ parent_title: What You Did
 title: Communities
 permalink: what-you-did/communities/
 identifier: what-you-did
-order: 2
+order: 3
 
 gallery_item:
     photos:
         -
-          file: Jenny Molloy.jpg
+          file: Jenny_Molloy.jpg
           alt: Jenny Molloy
         -
-          file: 600px-Joris_Pekel_bij_de_Wikimedia_Conferentie_Nederland_2012_-_Flickr_-_Sebastiaan_ter_Burg.jpg
+          file: Joris_Pekel.jpg
           alt: Joris Pekel
     caption_header: Communities
     caption: Open knowledge communities gather at OKFestival to tackle the complex challenges they are wrestling with and to gain a mutual understanding of what they have done, where they are and what the future holds for their community.
@@ -26,8 +26,8 @@ gallery_item:
 ---
 
 <div class="pull">
-{% include image.html filename="600px-Joris_Pekel_bij_de_Wikimedia_Conferentie_Nederland_2012_-_Flickr_-_Sebastiaan_ter_Burg.jpg" alt="Joris Pekel" caption="Joris Pekel" %}
-{% include image.html filename="Jenny Molloy.jpg" alt="Jenny Molloy" caption="Jenny Molloy" %}
+{% include image.html filename="Joris_Pekel.jpg" alt="Joris Pekel" caption="Joris Pekel" %}
+{% include image.html filename="Jenny_Molloy.jpg" alt="Jenny Molloy" caption="Jenny Molloy" %}
 </div>
 
 We spoke with [Joris Pekel](https://twitter.com/jpekel), the Community Coordinator for Cultural Heritage at Europeana, and [Jenny Molloy](https://twitter.com/jenny_molloy),a Zoology researcher at the University of Oxford, about bringing communities together to collaborate at OKFestival. Both serve as volunteer working group coordinators of the [OpenGLAM](http://openglam.org/) and [Open Science](http://science.okfn.org/) working group respectively and worked tirelessly to ensure that the OpenGLAM and Open Science communities were able to make effective use of rare in person time at the festival to overcome challenges, develop new initiatives and come together as a community – Here is what we learned!

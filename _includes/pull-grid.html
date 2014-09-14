@@ -2,8 +2,9 @@
 <div class="pull-grid">
 
     <section>
+    {% assign sorted_pages = (site.pages | sort: 'order') %}
 
-    {% for item in site.pages %}
+    {% for item in sorted_pages %}
 
     {% comment %}This collects any sub-page that has the correct category and a depth of 2. Yes, the image import is messy as a limitation of Liquid template parameters.
     {% endcomment %}

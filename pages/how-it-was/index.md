@@ -19,13 +19,23 @@ Check out the official OKFestival YouTube playlist below, from <a title="Open Kn
 
 A sampling of the images from the <a href="https://www.flickr.com/groups/okfestival2014/">OKFestival 2014 Flickr group</a>. Don't forget to add your pictures to the pool!
 
+https://www.flickr.com/photos/125950111@N08/14831165014/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14646911168/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14646984708/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14810638246/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14833302622/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14831338224/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14831338224/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14831338224/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14831338224/in/pool-okfestival2014/
+https://www.flickr.com/photos/125950111@N08/14831338224/in/pool-okfestival2014/
 
 ## Podcasts
 
 <a href="https://twitter.com/alexfink">Alex Fink</a> brought the <a title="OKFestival podcasts at the OKCast" href="http://okcast.org/tag/okfestival2014/">OKCast</a> to OKFestival and produced extensive audio coverage of the event, including interviews with keynote speakers and other presenters.
 <a href="http://okcast.org/tag/okfestival2014/"><img class="wp-image-733 alignnone" alt="OkCast" src="http://2014.okfestival.org/wp-content/uploads/2014/09/OkCast_Logo_Horizontal_Color_Small-300x70.png" width="300" height="70" /></a>
 
-# Session notes
+## Session notes
 
 Detailed notes captured at the event, and in some cases amended after, are here on the session <a href="https://pad.okfn.org/p/Pad_of_Pads">Etherpads</a>. You can also <a title="Festival Programme" href="http://2014.okfestival.org/festival-programme/">browse the programme</a> to find a particular session, ones with notes have a button linking to the corresponding Etherpad.
 

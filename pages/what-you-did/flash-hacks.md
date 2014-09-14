@@ -4,12 +4,12 @@ parent_title: What You Did
 title: Flash Hacks
 permalink: what-you-did/flash-hacks/
 identifier: what-you-did
-order: 3
+order: 4
 
 gallery_item:
     photos:
         -
-          file: Hera Hussain.jpg
+          file: Hera_Hussain.jpg
           alt: Hera Hussain
 
     caption_header: Flash Hacks
@@ -24,7 +24,7 @@ gallery_item:
 ---
 
 <div class="pull">
-{% include image.html filename="Hera Hussain.jpg" alt="Hera Hussain" %}
+{% include image.html filename="Hera_Hussain.jpg" alt="Hera Hussain" %}
 </div>
 
 Technology and the people using it to effect change are at the heart of the open knowledge movement and at OKFestival over 60 developers took time out of their busy schedules to sit in the scorching Berlin sun and help [OpenCorporates](http://opencorporates.com/) and three NGOs liberate over 10 million data points.

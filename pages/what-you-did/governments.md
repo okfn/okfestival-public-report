@@ -4,15 +4,15 @@ parent_title: What You Did
 title: Government
 permalink: what-you-did/governments/
 identifier: what-you-did
-order: 1
+order: 2
 
 gallery_item:
     photos:
         -
-          file: Amadu Massally.jpg
+          file: Amadu_Massally.jpg
           alt: Amadu Massally
         -
-          file: Ania Calderon.jpg
+          file: Ania_Calderon.jpg
           alt: Ania Calderon
     caption_header: Government
     caption: OKFestival provides government representatives from across Europe, Latin America, Asia and Africa a place to come together to share their experiences pushing for openness within government, to learn from their colleagues, to connect with the communities using government data and eager for greater access, and to see what is on the horizon of the open movement.
