@@ -1,7 +1,7 @@
 ---
 layout: page
 parent_title: What People Said
-title: Survey
+title: Survey Highlights
 permalink: what-people-said/survey/
 identifier: what-people-said
 order: 3
