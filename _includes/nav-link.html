@@ -3,4 +3,10 @@
 {% assign current = ' current' %}
 {% endif %}
 
-<a class="page-link{{current}}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+{% if item.alt_nav %}
+{% assign url = item.alt_nav %}
+{% else %}
+{% assign url = item.url %}
+{% endif %}
+
+<a class="page-link{{current}}" href="{{ url | prepend: site.baseurl }}">{{ item.title }}</a>
