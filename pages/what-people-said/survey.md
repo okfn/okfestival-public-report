@@ -59,16 +59,6 @@ The wifi and venue were cited as the top items that respondents least enjoyed. A
 
 {% include quote.html cite="" link="" quote="Crowded, noisy and hot session spaces, which made it sometimes difficult to participate in the sessions" %}
 
-### How were your interactions with attendees?
-
-<script id="infogram_0_how-were-your-interactions-with-attendees" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/how-were-your-interactions-with-attendees" style="color:#acacac;text-decoration:none;">How were your interactions with attendees?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
-
-
-### How likely are you to recommend Open Knowledge Festival to a colleague or friend?
-
-<script id="infogram_0_missnimbus_1410771562" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/missnimbus_1410771562" style="color:#acacac;text-decoration:none;">How likely are you to recommend Open Knowledge Festival to a colleague or friend?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
-
-
 ### Q11: What was the most valuable thing you learned at the Festival? e.g. that you might pass on to someone else.
 
 {% include quote.html cite="" link="" quote="That starting with open data is the wrong way to go. Start with problems that people face and then see whether/how open data can help." %}
@@ -86,10 +76,11 @@ The wifi and venue were cited as the top items that respondents least enjoyed. A
 
 {% include quote.html cite="Paul Roeland" link="" quote="The critical parts: be careful, #OKohno, how just 'open data' is not enough anymore." %}
 
-### Attendees & Interactions
+### How were your interactions with attendees?
 
-<script id="infogram_0_how-were-your-interactions-with-other-attendees" src="//e.infogr.am/js/embed.js" type="text/javascript"></script>
+<script id="infogram_0_how-were-your-interactions-with-attendees" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/how-were-your-interactions-with-attendees" style="color:#acacac;text-decoration:none;">How were your interactions with attendees?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
+
 
 ### The Last Word
 
-<script id="infogram_0_how-likely-are-you-to-recommend-open-knowledge-festival-to-a-colleague-or-friend" src="//e.infogr.am/js/embed.js" type="text/javascript"></script>
+<script id="infogram_0_missnimbus_1410771562" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/missnimbus_1410771562" style="color:#acacac;text-decoration:none;">How likely are you to recommend Open Knowledge Festival to a colleague or friend?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
