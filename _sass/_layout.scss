@@ -316,7 +316,7 @@
 
     @each $section in $sections {
         .#{nth($section, 1)} &:before {
-            background-image: url("/static/images/icon-#{nth($section, 1)}.svg");
+            background-image: url("/static/images/icon-#{nth($section, 1)}.png");
         }
 
         .index .#{nth($section, 1)} &:before {
