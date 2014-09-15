@@ -528,8 +528,20 @@
 /***
 * Gallery
 ***/
+// .grid-sizer { width: 33%; }
+// #gallery li { list-style: none; }
+// #gallery {margin:0;}
+#gallery {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    ul {margin-left:0;}
+    li { list-style: none;
+    float: left; }
+}
 
 .gallery {
+
     .grid-wrap {
         margin: 0 auto;
         padding: 0 1em 1.875em;
@@ -543,7 +555,7 @@
         li {
             width: calc(33.3% - 7px);
             width: -webkit-calc(calc(33.3% - 7px));
-            float: left;
+            // float: left;
             cursor: pointer;
 
             @include media-query($on-palm) {
@@ -674,6 +686,10 @@ form {
     width: 40%;
     margin-right: 5em;
 
+    @include media-query($on-palm) {
+        width: 90%;
+    }
+
     .btn {
         font-family: $base-font-family;
         color: #fff !important;
@@ -732,4 +748,44 @@ form {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+/* footer*/
+
+footer {
+    .cc-wrapper {
+        background: url("http://i.creativecommons.org/l/by/4.0/88x31.png") no-repeat 0.5em 0.8em #666;
+        padding-left: 101px;
+        line-height: 2em;
+        color: #fff;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        overflow: hidden;
+    }
+
+    .cc {
+        width: 50%;
+        line-height: 1.3em;
+        margin-bottom: 0;
+        float: left;
+
+        a:hover {
+            text-decoration: underline;
+            color:#ff5343;
+        }
+    }
+    .credits {
+        text-transform: uppercase;
+        float: right;
+        line-height: 2.4em;
+        margin-right: 1em;
+        margin-bottom: 0;
+
+        a {
+            color: #fff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
 
