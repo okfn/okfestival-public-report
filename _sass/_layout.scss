@@ -803,5 +803,18 @@ footer {
         }
     }
 
+    .creators {
+        text-align: center;
+        font-size: 13px;
+
+        a {
+            color: #999 !important;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
 }
 
