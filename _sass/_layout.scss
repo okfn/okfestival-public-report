@@ -749,8 +749,24 @@ form {
 }
 
 /* footer*/
-
+.site-footer {
+    padding-top: 0;
+}
 footer {
+    h2 {
+        font-family: $base-font-family;
+        line-height: 4em;
+        text-align: center;
+        background-color: #fff;
+        font-size: 20px;
+
+        a, a:visited {
+            color:$text-color;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
     .cc-wrapper {
         background: url("http://i.creativecommons.org/l/by/4.0/88x31.png") no-repeat 0.5em 0.8em #666;
         padding-left: 101px;
