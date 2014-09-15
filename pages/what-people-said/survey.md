@@ -15,24 +15,26 @@ order: 3
 
 ---
 
-<div class="pull">
-{% include image.html filename="wordle.png" alt="" caption="" %}
-</div>
-
 ### Q3: Why did you decide to attend OKFestival?
+
+<div class="pull">
+<script id="infogram_0_why-did-you-decide-to-attend-okfestival-wordcloud" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
+</div>
 
 OKfestival was a successful learning and networking space based on the majority of OkFestival survey responses. Open Knowledge is the network and movement. The majority of respondents considered it important to attend to network.
 
 Some of the other reasons that people provided were: “to learn what happens in the world”, “to hear about overall development in the field”, “Volunteer”, “To help out and to learn”, “to influence the open movement”, “facilitate a session”, and “to be part of this amazing network.”
 
 
-<script id="infogram_0_why-did-you-decide-to-attend-okfestival" src="//e.infogr.am/js/embed.js" type="text/javascript"></script>
+<script id="infogram_0_missnimbus_1410770005" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/missnimbus_1410770005" style="color:#acacac;text-decoration:none;">Why did you decide to attend OKFestival?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
+
 
 ### Q4: Overall, how well did the festival meet your expectations?
 
 For 85% of respondents, OKFest met or exceeded their expectations.
 
-<script id="infogram_0_overall-how-well-did-the-festival-meet-your-expectations" src="//e.infogr.am/js/embed.js" type="text/javascript"></script>
+<script id="infogram_0_missnimbus_1410770728" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/missnimbus_1410770728" style="color:#acacac;text-decoration:none;">Overall, how well did the festival meet your expectations?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
+
 
 ### Q5A: What did you MOST enjoy at the Festival?
 
@@ -56,6 +58,16 @@ The wifi and venue were cited as the top items that respondents least enjoyed. A
 {% include quote.html cite="" link="" quote="What I enjoyed the least was the location. It was the most amazing locations to look at, but the worst for these workshops. Too loud, the cardboard boxes were a visual aid to seperate the rooms, but not acoustically. Workshop spaces were not air conditioned, which in some cases became dangerously hot and uncomfortable. I'm glad nobody fainted. Also some of the rooms had soundsystems that were not used. Too bad because some of the people, especially those who are not natively English didn't catch all the information. Look for a space with more smaller rooms in stead of bigger ones in the next years. Keynote room, fair and outdoor foodcourt were amazing though." %}
 
 {% include quote.html cite="" link="" quote="Crowded, noisy and hot session spaces, which made it sometimes difficult to participate in the sessions" %}
+
+### How were your interactions with attendees?
+
+<script id="infogram_0_how-were-your-interactions-with-attendees" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/how-were-your-interactions-with-attendees" style="color:#acacac;text-decoration:none;">How were your interactions with attendees?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
+
+
+### How likely are you to recommend Open Knowledge Festival to a colleague or friend?
+
+<script id="infogram_0_missnimbus_1410771562" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/missnimbus_1410771562" style="color:#acacac;text-decoration:none;">How likely are you to recommend Open Knowledge Festival to a colleague or friend?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
+
 
 ### Q11: What was the most valuable thing you learned at the Festival? e.g. that you might pass on to someone else.
 
