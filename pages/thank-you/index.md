@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Thank You
-description: A letter from the Open Knowledge Festival team
+description: A letter from the Open Knowledge Festival Team
 permalink: /thank-you/
 order: 1
 identifier: thank-you
