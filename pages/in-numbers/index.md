@@ -1,7 +1,7 @@
 ---
 layout: page
 title: In Numbers
-description: Stats from the festival
+description: Stats on the Festival
 permalink: /in-numbers/
 order: 6
 identifier: in-numbers
@@ -15,7 +15,7 @@ identifier: in-numbers
 
 {% include image.html filename="02_who.png" alt="" caption="" %}
 
-## Where did all the people come from?
+## Where did the people come from?
 
 <iframe src="http://cf.datawrapper.de/6zYxV/5/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe>
 
