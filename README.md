@@ -13,9 +13,7 @@ If you are making complex changes or you want to be sure about how this will loo
     ~/okfestival-public-report $ jekyll serve
     # => Now browse to http://localhost:4000
 
-## Report site
-
-This site is made with [Jekyll](jekyllrb.com).
+ Make sure when you commit that you do it to the gh-pages branch as this is how github knows to compile the jekyll site.
 
 ## Page structure
 
