@@ -7,10 +7,6 @@ order: 6
 identifier: in-numbers
 ---
 
-## Where did the money come from?
-
-{% include image.html filename="01_money.png" alt="" caption="" %}
-
 ## Who made it happen?
 
 {% include image.html filename="02_who.png" alt="" caption="" %}
@@ -38,4 +34,8 @@ identifier: in-numbers
 {% include image.html filename="06-1_food.png" alt="" caption="" %}
 {% include image.html filename="06-2_drinks.png" alt="" caption="" %}
 {% include image.html filename="06-3_grafitti.png" alt="" caption="" %}
+
+## Where did the money come from?
+
+{% include image.html filename="01_money.png" alt="" caption="" %}
 

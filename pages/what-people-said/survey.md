@@ -74,8 +74,6 @@ The wifi and venue were cited as the top items that respondents least enjoyed. A
 
 {% include quote.html cite="Steph Unna" link="" quote="It is easy to get involved with the open movement, and it is a supportive and thriving community." %}
 
-{% include quote.html cite="Paul Roeland" link="" quote="The critical parts: be careful, #OKohno, how just 'open data' is not enough anymore." %}
-
 ### How were your interactions with attendees?
 
 <script id="infogram_0_how-were-your-interactions-with-attendees" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/how-were-your-interactions-with-attendees" style="color:#acacac;text-decoration:none;">How were your interactions with attendees?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
