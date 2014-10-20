@@ -15,7 +15,7 @@ order: 3
 
 ---
 
-### Q3: Why did you decide to attend OKFestival?
+### Why did you decide to attend OKFestival?
 
 <div class="pull">
 <script id="infogram_0_why-did-you-decide-to-attend-okfestival-wordcloud" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
@@ -29,14 +29,14 @@ Some of the other reasons that people provided were: “to learn what happens in
 <script id="infogram_0_missnimbus_1410770005" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/missnimbus_1410770005" style="color:#acacac;text-decoration:none;">Why did you decide to attend OKFestival?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
 
 
-### Q4: Overall, how well did the festival meet your expectations?
+### Overall, how well did the festival meet your expectations?
 
 For 85% of respondents, OKFest met or exceeded their expectations.
 
 <script id="infogram_0_missnimbus_1410770728" src="//e.infogr.am/js/embed.js" type="text/javascript"></script><div style="width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;"><a target="_blank" href="//infogr.am/missnimbus_1410770728" style="color:#acacac;text-decoration:none;">Overall, how well did the festival meet your expectations?</a> | <a style="color:#acacac;text-decoration:none;" href="//infogr.am" target="_blank">Create Infographics</a></div>
 
 
-### Q5A: What did you MOST enjoy at the Festival?
+### What did you MOST enjoy at the Festival?
 
 Most of the respondents cited networking as the main point of enjoyment for OKfest. Some people did cite the venue as great. There were some comments about keynotes/fireside chats including mentioning Neelie Kroes and Ory Okolloh as favourite speakers. Some of the programme content highlighted included Flashhacks, the unconference, Artists without a Cause (AWAC), the graffiti wall and Peng Collective.
 
@@ -51,7 +51,7 @@ Most of the respondents cited networking as the main point of enjoyment for OKfe
 
 {% include quote.html cite="Stephanie Dawson, ScienceOpen" link="" quote="I LOVED the interactive sessions. It was also an absolutely great sponsorship experience. Food trucks were fun. Location very good. Thanks for a great conference!" %}
 
-### Q5B: And, what did you LEAST enjoy?
+### And, what did you LEAST enjoy?
 
 The wifi and venue were cited as the top items that respondents least enjoyed. As well there were some comments about the programme organization or content concerns.
 
@@ -59,7 +59,7 @@ The wifi and venue were cited as the top items that respondents least enjoyed. A
 
 {% include quote.html cite="" link="" quote="Crowded, noisy and hot session spaces, which made it sometimes difficult to participate in the sessions" %}
 
-### Q11: What was the most valuable thing you learned at the Festival? e.g. that you might pass on to someone else.
+### What was the most valuable thing you learned at the Festival? e.g. that you might pass on to someone else.
 
 {% include quote.html cite="" link="" quote="That starting with open data is the wrong way to go. Start with problems that people face and then see whether/how open data can help." %}
 
