@@ -14,8 +14,8 @@ gallery_item:
         -
           file: Ania_Calderon.jpg
           alt: Ania Calderon
-    caption_header: Government
-    caption: OKFestival provides government representatives from across Europe, Latin America, Asia and Africa a place to come together to share their experiences pushing for openness within government, to learn from their colleagues, to connect with the communities using government data and eager for greater access, and to see what is on the horizon of the open movement.
+    caption_header: Government Representatives 
+    caption: OKFestival provides government representatives from across Europe, Latin America, Asia and Africa a place to come together to share their experiences in advocating for increased openness within government, to learn and gather inspiration from their colleagues, to meet and connect with the communities actually using government data, eager for greater access, and finally to see what is on the horizon of the open movement. We spoke with Ania Calderón Mariscal and Amadu Massally to learn more. 
 
 
 ---
