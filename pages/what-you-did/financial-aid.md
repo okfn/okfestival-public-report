@@ -15,7 +15,7 @@ gallery_item:
           file: Subhajit_Ganguly.jpg
           alt: Subhajit Ganguly
     caption_header: International Participants
-    caption:Our financial aid programme enabled us to support the participating of interntional community members and grow the global open knowledge movement. We spoke with Anne Muigai (Open Institute) from Kenya and Subhajit Ganguly (Open Knowledge Ambassador) from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take aways from the festival.
+    caption: Our financial aid programme enabled us to support the participating of interntional community members and grow the global open knowledge movement. We spoke with Anne Muigai (Open Institute) from Kenya and Subhajit Ganguly (Open Knowledge Ambassador) from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take aways from the festival.
 
 ---
 
