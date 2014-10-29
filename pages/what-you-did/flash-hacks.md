@@ -31,7 +31,7 @@ Technology and the people using it to effect change are at the heart of the open
 
 OpenCorporates aims to fulfil a simple mission – have an open URL for every company in the world. Unfortunately, at the moment, most data about companies is not open, it’s locked away in PDFs and on government and company websites making it nearly impossible to link it back to the company itself. While governments – the owners of a significant amount of corporate data – have embraced open data and have even expressed their willingness to open up company registries for example, gaining access to this data in open formats has been slow; while we wait, citizens are deprived of essential information needed to understand the complicated corporate web. OpenCorporates is not waiting and for the last years they their tiny team has been scraping government and company websites to populate an open database of corporate information.
 
-<div class="pull">
+<div class="pull-left">
 {% include image.html filename="14685278044_6782d86534_z.jpg" alt="Hera Hussain" %}
 </div>
 
