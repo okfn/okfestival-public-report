@@ -1,7 +1,7 @@
 ---
 layout: page
 parent_title: What You Did
-title: Communities
+title: Community
 permalink: what-you-did/communities/
 identifier: what-you-did
 order: 3
@@ -14,8 +14,8 @@ gallery_item:
         -
           file: Joris_Pekel.jpg
           alt: Joris Pekel
-    caption_header: Communities
-    caption: Open knowledge communities gather at OKFestival to tackle the complex challenges they are wrestling with and to gain a mutual understanding of what they have done, where they are and what the future holds for their community.
+    caption_header: Community
+    caption: Open knowledge communities gather at OKFestival to tackle the complex challenges they are wrestling with and to gain a mutual understanding of what they have done, where they are and what the future holds for their community. We spoke with Joris Pekel, the Community Coordinator for Cultural Heritage at Europeana, and Jenny Molloy, a Zoology researcher at the University of Oxford, about bringing communities together to collaborate at OKFestival.
 
 ---
 
