@@ -1,7 +1,7 @@
 ---
 layout: page
 parent_title: What You Did
-title: Sponsors
+title: Sponsorship
 permalink: what-you-did/sponsors/
 identifier: what-you-did
 order: 5
@@ -19,7 +19,7 @@ gallery_item:
 
 ---
 
-## Sponsoring OKFestival: An Opportunity to Share, Learn and Engage
+## Sponsoring OKFestival: Opportunity to Share, Learn & Engage
 
 <span class="summary">Stef van Grieken from Google and Duncan Edwards from Making All Voices Count tell us why their organisations decided to sponsor OKFestival 2014. We also find out how meeting the diverse crowd of OKFestival and participating in the event helped their work and upcoming projects.</span>
 
