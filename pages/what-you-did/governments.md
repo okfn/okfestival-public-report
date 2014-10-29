@@ -14,6 +14,9 @@ gallery_item:
         -
           file: Ania_Calderon.jpg
           alt: Ania Calderon
+        -
+          file: 14550095790_78ee00262f_z.jpg
+          alt: Government One
     caption_header: Government Representatives 
     caption: OKFestival provides government representatives from across Europe, Latin America, Asia and Africa a place to come together to share their experiences in advocating for increased openness within government, to learn and gather inspiration from their colleagues, to meet and connect with the communities actually using government data, eager for greater access, and finally to see what is on the horizon of the open movement. We spoke with Ania Calderón Mariscal and Amadu Massally to learn more. 
 
@@ -39,6 +42,10 @@ gallery_item:
 It is within governments that, over the last few years, we have seen one of the most significant uptakes of open data, with local and national governments releasing more data than ever before. However, governments and civil society alike know that releasing data on a portal is not all that is required to realize the benefits of citizen participation, economic growth and increased transparency and accountability. OKFestival provides government representatives from across Europe, Latin America, Asia and Africa, a place to come together to share, learn and collectively push the open agenda forward. Attendees of OKFestival are eager to learn from their colleagues about everything from citizen engagement strategies to drafting open government partnership action plans to creating ownership over the open government data agenda in agencies and departments.
 
 Building an open data ecosystem is not dissimilar to any other online or government service — if you want it to be effective, it is essential that you understand the needs of your users (in this case, citizens) — and OKFestival provides government representatives the unique opportunity to come together with policy advocates, NGOs, hackers and data wranglers and learn about one another’s needs and challenges. While Mexico and Sierra Leone are at stages in the process of opening up their data, both face a similar array of challenges as they move towards greater transparency. However, despite these differences, each government choose to participate in OKFestival, all agreeing that it represented an opportunity to share the progress they had made, learn from colleagues around the world, and connect with others trying to accomplish similar goals!
+
+<div class="pull">
+{% include image.html filename="14550095790_78ee00262f_z.jpg" alt="Government One" caption="Pic by Gregor Fisher." %}
+</div>
 
 Amadu Massally is the Coordinator of [Open Government Initiative in Sierra Leone](http://ogi.gov.sl/), the entity in charge of collaborating with civil society to develop the country’s first [Open Government Partnership](http://www.opengovpartnership.org/) (OGP) action plan and he participated in OKFestival in order to attend the workshops relevant to the commitments Sierra Leone had made. He also was drawn to Berlin by the opportunity to connect in-person with others working on open government data internationally, from those at multilateral institutions like the World Bank, to development agencies like USAID, and most importantly to other national open government task forces leading the charge for open data in their jurisdictions.
 
