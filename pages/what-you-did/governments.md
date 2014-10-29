@@ -16,7 +16,11 @@ gallery_item:
           alt: Ania Calderon
         -
           file: 14550095790_78ee00262f_z.jpg
-          alt: Government One
+          alt: Government One 
+        -
+          file: 14550185548_837eb99277_z.jpg
+          alt: Pic By Gregor Fisher 
+        
     caption_header: Government Representatives 
     caption: OKFestival provides government representatives from across Europe, Latin America, Asia and Africa a place to come together to share their experiences in advocating for increased openness within government, to learn and gather inspiration from their colleagues, to meet and connect with the communities actually using government data, eager for greater access, and finally to see what is on the horizon of the open movement. We spoke with Ania Calderón Mariscal and Amadu Massally to learn more. 
 
@@ -52,6 +56,10 @@ Amadu Massally is the Coordinator of [Open Government Initiative in Sierra Leone
 [Ania Calderón Mariscal](https://twitter.com/aniacalderon) is the General Director of Digital Innovation for the Office of the President in Mexico who joined us in Berlin to showcase the work that they have been doing, connect with others in the open movement and to find new ways to work together to advance our shared objectives and cause. In the end, she left OKFestival having fulfilled these objectives with a new south to south peer mentorship programme in development and new ideas about how to adapt the methodology of OKFestival to Mexico’s own open data conference this fall.
 
 Ultimately, OKFestival is about bringing everyone together under one roof, or in this case under the bright blue Berlin sky, for a few days to teach, discuss, troubleshoot, and return home equipped to both tackle current challenges and to be aware of and prepared for the challenges likely to arise! It is essential to remember that despite all working to solve the same problems, government and civil society — particularly civic hackers — tend to have very different skillsets and often approach problem solving in very different ways and it for this reason events like OKFestival are so valuable. Amadu, for example, remarked that in Sierra Leone, they have not approached or really understood the Open Government Partnership from the “geek point of view” and for them, OKFestival was a great opportunity to explore the possibilities open data presents from that perspective. Similarly, as the team in Mexico prepares for [ConDatos](http://condatos.org/), Ania reported that she was inspired by the participatory approach at OKFestival, something that she is excited to see replicated when the Latin American open data community gathers in Mexico in October of 2014.
+
+<div class="pull">
+{% include image.html filename="14550185548_837eb99277_z.jpg" alt="Pic By Gregor Fisher " caption="Pic by Gregor Fisher." %}
+</div>
 
 The OKFestival program team worked diligently to create a space in which the line between learner and teacher was blurred and all participants were empowered to take an active role in the Festival in order to foster spontaneous learning opportunities. For example, while certain countries have had quite a lot of success releasing a steady stream of machine readable openly licensed data, engaging citizens around that data in order to stimulate reuse and create a greater demand has remained a challenge. The case in Sierra Leone is quite the opposite as they are just beginning to release open data but have already conducted successful citizen engagement exercises, experiences and learning they were able to pass along to pass along to the French open data team currently wrestling with how to generate more demand.
 
