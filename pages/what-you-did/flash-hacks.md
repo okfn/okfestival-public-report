@@ -12,7 +12,7 @@ gallery_item:
           file: Hera_Hussain.jpg
           alt: Hera Hussain
 
-    caption_header: #Flashhacks
+    caption_header: Flashhacks at OKFestival
     caption: We spoke with Hera Hussain, Community Manager at OpenCorporates, about their decision to launch their new crowd scraping programme at OKFestival, their &num;FlashHacks campaign to scrape 10 million data points in 10 days and the overall collaborative spirit of the open knowledge movement – Here is what we found!
 
 ---
