@@ -1,7 +1,7 @@
 ---
 layout: page
 parent_title: What People Said
-title: Media Quotes
+title: Quotes
 permalink: what-people-said/quotes/
 identifier: what-people-said
 order: 1
@@ -9,7 +9,7 @@ order: 1
 ---
 
 
-## Media Quotes
+## Press Mentions and Blog Posts
 
 {% include quote.html cite="Kat Austen, New Scientist" link="http://www.newscientist.com/article/dn25956-festival-shows-the-promises-and-perils-of-open-data.html#.VBWt9WSSynf" quote="There have been many open data, activism and hacking conferences over the last few years, but the atmosphere of this one was electric. For once, people believed that they might actually succeed in changing the status quo […] Industry is clearly paying attention, with sponsorship from Google and the investment firm Omidyar Network, and a keynote speech from Eric Hysen, Google's programme manager for elections and civic engagement […] More than the inspiring atmosphere of the festival, more even than the presence of serious policy players and businesses, it was this sort of critical approach that turned what could have been dismissed as a congress of zealots into a rational and legitimate lobby for change." %}
 
