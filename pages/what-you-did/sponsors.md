@@ -14,12 +14,12 @@ gallery_item:
         -
           file: Duncan_Edwards.jpg
           alt: Duncan Edwards
-    caption_header: Sponsors
+    caption_header: Sponsoring OKFestival
     caption: Stef van Grieken from Google and Duncan Edwards from Making All Voices Count tell us why their organisations decided to sponsor OKFestival 2014. We also find out how meeting the diverse crowd of OKFestival and participating in the event helped their work and upcoming projects.
 
 ---
 
-## Sponsors
+## Sponsoring OKFestival: An Opportunity to Share, Learn and Engage
 
 <span class="summary">Stef van Grieken from Google and Duncan Edwards from Making All Voices Count tell us why their organisations decided to sponsor OKFestival 2014. We also find out how meeting the diverse crowd of OKFestival and participating in the event helped their work and upcoming projects.</span>
 
@@ -33,12 +33,33 @@ gallery_item:
 [Stef van Grieken](https://twitter.com/stefvangrieken) is the Technical Program Manager at [Google](http://www.google.com/about/). [Duncan Edwards](https://twitter.com/duncan_ids) works as [Making All Voices Count](http://www.makingallvoicescount.org/)'s Research & Evidence Programme Manager at the [Institute of Development Studies (IDS)](http://www.ids.ac.uk/). Together, they both share their views on why their organisations decided to sponsor OKFestival.
 
 ---
-
 We find out how a donor can make the most of this unique opportunity to engage directly with open communities from around the world. Both Stef and Duncan explain how their position as a donor of the event helps them shape the future of “open” with other leaders and advocate for the progress they hope to achieve.
 
-OKFestival depends on the generous support from sponsors. We are also particularly fortunate in that our sponsors contribute significantly more than just their financial support. At this year’s Festival, all our sponsors were active participants, sharing their experience and perspectives, with practitioners, governments and technologists on the ground. In addition, both Google and [Making All Voices Count](http://www.makingallvoicescount.org/) provided crucial financial and in-kind support while also facilitating innovative sessions and inspiring us with keynote addresses.
+OKFestival depends on the generous support from sponsors. We are also particularly fortunate in that our sponsors contribute significantly more than just their financial support. At this year’s Festival, all our sponsors were active participants, sharing their experience and perspectives, with practitioners, governments and technologists on the ground. In addition, both Google and Making All Voices Count provided crucial financial and in-kind support while also facilitating innovative sessions and inspiring us with keynote addresses.
 
 As donors are an essential component of the global open knowledge movement and a major actor in the open knowledge ecosystem, it was essential for us to create a space in which the Festival’s sponsors as well as other donors in the space were able to come together and work with the community to set priorities for the future of the movement, develop new projects and partnerships and ultimately strengthen our shared vision.
+
+<div class="pull">
+{% include image.html filename="14736797565_9f2e629d9e_z.jpg" alt="Photo by Gregor Fister" %}
+</div>
+
+# Google Does Their Homework (And Some of Ours)
+
+We are grateful for the support from [Stef van Grieken](https://twitter.com/stefvangrieken), Google’s Technical Program Manager, who joined us as at OkFestival as a faciliator and sat down to talk with us about his experience. In addition to Google’s direct financial support for the open movement through grants and sponsorship, such as their sponsorship of OKFestival, Google, is involved in the open movement in a number of other ways. And while much of Google’s work remains proprietary, there is no denying their generous contributions to open source technology through the countless code contributions of their employees and programmess like Summer of Code in addition to their work on election and crisis data.
+
+Several members of the Google team joined us at OKFestival this year. They mentioned that Google is in the fortunate position to be able to actively research the current state of civic tech and open communities, an opportunity that most organisations working within this space are often unable to dedicate the resources to do. As such, one of their goals is to share some of the insights that they have gained in conducting this research. They were also interested in learning more about the space and work that has been done thus far, aiming to be thoughtful about the contribution that individuals and organisations have given and to gain an improved understanding about what the contribution of Google could be.
+
+In the election data session proposed by [DATA Uruguay](http://datauy.org/) and co-facilitated with Google’s [Stef van Grieken](https://twitter.com/stefvangrieken), [Global Election Toolbox](http://sched.co/1tx4f1W), there was resounding agreement between the participants that, whereas the community has previously focused on election results, there needed to be more work done in understanding political issues and a greater focus on pre-election data. This session also went into detail about how to get open data in the right shape, for example making sure it’s always machine-readable, and reference to projects which can inspire and support the work of many countries facing similar challenges, like the (Open Knowledge’s!) Open Data Index.
+
+Eric Hysen, who heads up Google’s elections and civic engagement products and programmes, gave a keynote talk with the encouraging title [Let’s build the road network of civic tech](https://medium.com/@EricHysen/lets-build-the-road-network-of-civic-tech-79427d968422). The address praised the community efforts and successes reached so far, shared learnings on researches the company is focusing on and at the same time encouraged the community to do more, to look beyond the naive idea of a killer app which solves it all, and get together in trying to figure out the next steps to be taken as a movement to fuel the opportunities offered by civic tech.
+
+[Designing for Collective Action](http://sched.co/T1n56q), the research-fueled session facilitated by Stef and the [Knight Foundation](http://www.knightfoundation.org/) shared stories on how to build civic applications which actually succeed in helping the users. During the last year Google and Knight Foundation have focused on understanding the work and needs of users and developers of civic technology: citizens, governments and civic activists. They took the opportunity to be at OKFestival to connect with a variety of stakeholders working in the field, with the aim of encouraging sharing, discussions and learning from common barriers which governments and civic technologists face in developing their applications. As a result of the session and an eagerness from participants to do more, Google will be publishing a white paper in the coming months with the goal of informing the direction of future research. We look forward to hearing their proposals!
+
+<div class="pull">
+{% include image.html filename="14756640153_fb9deb951e_z.jpg" alt="Photo by Gregor Fister" %}
+</div>
+
+# Fostering impact with Making All Voices Count
 
 [Making All Voices Count](http://www.makingallvoicescount.org/) is a programme searching for innovative methods to ensure that all citizens can have an impact on their government and affect government decisions. One important route to achieving this is supporting governments to become more open. The open government movement is driven by the assumption that if, for example,  government make revenue and expenditure information openly available, citizens will then be able participate in the budgeting process and hold governments accountable for how the money is allocated.
 
@@ -64,14 +85,8 @@ While there was extraordinary value for the Making All Voices Count programme in
 
 “A particularly exciting dimension from my perspective, as someone based in a research organisation, is the role Making All Voices Count can play in building an evidence base as to how open data and technology can improve governance. Research is scarce in this area and we would hope a key legacy of the programme is a greater evidence base that can inform and improve practice.” Duncan Edwards
 
-We are also grateful for the support from [Stef van Grieken](https://twitter.com/stefvangrieken), Google’s Technical Program Manager. In addition to Google’s direct financial support for the open movement through grants and sponsorship, such as their sponsorship of OKFestival, Google, is involved in the open movement in a number of other ways. And while much of Google’s work remains proprietary, there is no denying their generous contributions to open source technology through the countless code contributions of their employees and programs like Summer of Code and their work on election and crisis data.
-
-Several members of the Google team joined us at OKFestival this year. They mentioned that Google is in the fortunate position to be able to actively research the current state of civic tech and open communities, an opportunity that most organisations working within this space are often unable to dedicate the resources to do. As such, one of their goals is to share some of the insights that they have gained in conducting this research. They were also interested in learning more about the space and work that has been done thus far, aiming to be thoughtful about the contribution that individuals and organisations have given and to gain an improved understanding about what the contribution of Google could be.
-
-In the election data session proposed by [DATA Uruguay](http://datauy.org/) and co-facilitated with Google’s [Stef van Grieken](https://twitter.com/stefvangrieken), [Global Election Toolbox](http://sched.co/1tx4f1W), there was resounding agreement between the participants that, whereas the community has previously focused on election results, there needed to be more work done in understanding political issues and a greater focus on pre-election data. This session also went into detail about how to get open data in the right shape, for example making sure it’s always machine-readable, and reference to projects which can inspire and support the work of many countries facing similar challenges, like the (Open Knowledge’s!) Open Data Index.
-
-Eric Hysen, who heads up Google’s elections and civic engagement products and programmes, gave a keynote talk with the encouraging title [Let’s build the road network of civic tech](https://medium.com/@EricHysen/lets-build-the-road-network-of-civic-tech-79427d968422). The address praised the community efforts and successes reached so far, shared learnings on researches the company is focusing on and at the same time encouraged the community to do more, to look beyond the naive idea of a killer app which solves it all, and get together in trying to figure out the next steps to be taken as a movement to fuel the opportunities offered by civic tech.
-
-[Designing for Collective Action](http://sched.co/T1n56q), the research-fueled session facilitated by Stef and the [Knight Foundation](http://www.knightfoundation.org/) shared stories on how to build civic applications which actually succeed in helping the users. During the last year Google and Knight Foundation have focused on understanding the work and needs of users and developers of civic technology: citizens, governments and civic activists. They took the opportunity to be at OKFestival to connect with a variety of stakeholders working in the field, with the aim of encouraging sharing, discussions and learning from common barriers which governments and civic technologists face in developing their applications. As a result of the session and an eagerness from participants to do more, Google will be publishing a white paper in the coming months with the goal of informing the direction of future research. We look forward to hearing m their proposals
+<div class="pull">
+{% include image.html filename="14733618721_2fe235bfec_z.jpg" alt="Photo by Gregor Fisher" %}
+</div>
 
 A key point mentioned by both Stef and Duncan was that their attendance at OKFestival allowed them to connect with a number of people dealing with the same issues that their organisations are also working to tackle. In many ways this is what Open Knowledge hopes to achieve by gathering people together in a shared, collaborative space. One of the key objectives of OKFestival is to break down some of the walls between big organisations and small citizen groups, between “developed” countries and “emerging” economies and between for profit companies and not-for-profit NGOs. We believe it is our different perspectives, different approaches and, at times, different beliefs that equip us to further our shared mission and support each other in changing our societies for the better.
