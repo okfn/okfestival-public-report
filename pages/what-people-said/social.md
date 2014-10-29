@@ -7,7 +7,7 @@ identifier: what-people-said
 order: 2
 
 ---
-
+Open Knowledge Festival aims to encouraging people to plan seeds of discussion, talk together, learn from each other and exchange helpful feedback. That’s why is this section we take a look (and a read) at what has been written and said about OKFestival 2014 – your reflections, thoughts and words. From major newspapers to influential blogs and great tweets, here’s the place to walk the talk!
 
 ## Social Media
 
