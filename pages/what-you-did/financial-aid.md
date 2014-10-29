@@ -19,7 +19,7 @@ gallery_item:
 
 ---
 
-## International Collabroation: Growing the Global Open Knowledge Movement
+## Growing the Global Open Knowledge Movement
 
 <span class="summary">We spoke with Anne from Kenya and Subhajit from India who were able to attend OKFestival thanks to the Financial Aid programme. Here is what they said about their take aways from the festival.</span>
 
