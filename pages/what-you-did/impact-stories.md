@@ -2,7 +2,7 @@
 layout: page
 parent_title: What You Did
 title: Outcome Stories 
-permalink: what-you-did/outcome-stories/
+permalink: what-you-did/impact-stories/
 identifier: what-you-did
 order: 1
 
