@@ -1,7 +1,7 @@
 ---
 layout: page
 parent_title: What You Did
-title: Outcome Stories 
+title: Impact Stories 
 permalink: what-you-did/impact-stories/
 identifier: what-you-did
 order: 1
