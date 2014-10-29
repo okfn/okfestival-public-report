@@ -1,18 +1,18 @@
 ---
 layout: page
 parent_title: What You Did
-title: Impact Stories
+title: Outcome Stories 
 permalink: what-you-did/impact-stories/
 identifier: what-you-did
 order: 1
 
-gallery_item:
-    caption_header: Impact stories
+gallery_item
+    caption_header: Outcome Stories 
     caption: A revolution in technology is happening and it’s changing everything we do. Never before has so much data been collected and analysed. This year, the Open Knowledge Festival, brought together over 1,000 people from 60 countries to share their skills and experiences in order to ensure that the knowledge and insights derived from this data are open and publicly accessible to all.
 
 ---
 
-## Impact Stories
+## Outcome Stories 
 
 <span class="summary"></span>
 
