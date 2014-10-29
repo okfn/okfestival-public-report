@@ -1,7 +1,7 @@
 ---
 layout: page
 parent_title: What You Did
-title: Flash Hacks
+title: Hacks
 permalink: what-you-did/flash-hacks/
 identifier: what-you-did
 order: 4
@@ -12,12 +12,12 @@ gallery_item:
           file: Hera_Hussain.jpg
           alt: Hera Hussain
 
-    caption_header: Flash Hacks
+    caption_header: #Flashhacks
     caption: We spoke with Hera Hussain, Community Manager at OpenCorporates, about their decision to launch their new crowd scraping programme at OKFestival, their &num;FlashHacks campaign to scrape 10 million data points in 10 days and the overall collaborative spirit of the open knowledge movement – Here is what we found!
 
 ---
 
-## #FlashHacks: unlocking 10 million data points in 10 days
+## #FlashHacks: Unlocking 10 Million Data Points in 10 Days
 
 <span class="summary">We spoke with Hera Hussain, Community Manager at OpenCorporates, about their decision to launch their new crowd scraping programme at OKFestival, their #FlashHacks campaign to scrape 10 million data points in 10 days and the overall collaborative spirit of the open knowledge movement – Here is what we found!</span>
 
@@ -30,6 +30,10 @@ gallery_item:
 Technology and the people using it to effect change are at the heart of the open knowledge movement and at OKFestival over 60 developers took time out of their busy schedules to sit in the scorching Berlin sun and help [OpenCorporates](http://opencorporates.com/) and three NGOs liberate over 10 million data points.
 
 OpenCorporates aims to fulfil a simple mission – have an open URL for every company in the world. Unfortunately, at the moment, most data about companies is not open, it’s locked away in PDFs and on government and company websites making it nearly impossible to link it back to the company itself. While governments – the owners of a significant amount of corporate data – have embraced open data and have even expressed their willingness to open up company registries for example, gaining access to this data in open formats has been slow; while we wait, citizens are deprived of essential information needed to understand the complicated corporate web. OpenCorporates is not waiting and for the last years they their tiny team has been scraping government and company websites to populate an open database of corporate information.
+
+<div class="pull">
+{% include image.html filename="14685278044_6782d86534_z.jpg" alt="Hera Hussain" %}
+</div>
 
 While fulfilling their mission requires more people than their tiny seven person team can provide and over the years, people have continually reached out to OpenCorporates to find out how they can contribute to their growing database of corporate data, there was no straightforward way for the community to contribute. The team decided that they would harness the energy and enthusiasm generated at OKFestival as well as mobilise the abundances of civic minded developers lurking around the Kulturbrauerei (the festival venue, a massive former brewery complex) in order to launch their new crowd-scraping platform, Missions. To kick things off, they set an ambitious challenge: liberate 10 million data points in only 10 days by empowering the community to write scrapers, computer programmes that extract data from human-readable content. According to [Hera Hussain](https://twitter.com/herahussain), Community Manager at OpenCorporates and the mastermind behind the initiative, “Chris [Taggart, CEO OpenCorporates] wanted to demonstrate the power of the open community by doing something that seemed like it couldn’t be done.”
 
