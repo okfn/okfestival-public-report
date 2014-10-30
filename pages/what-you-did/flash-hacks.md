@@ -36,7 +36,7 @@ While fulfilling their mission requires more people than their tiny seven person
 
 Mission Accomplished! During OKFestival alone, 6 million data points were added to the database! Those combined with the 6 million added in the 7 days leading up to the festival, meant that the open data community didn’t just meet challenge, they demolished it! The idea to run the [#FlashHacks campaign](http://blog.opencorporates.com/2014/07/21/flashhacks-the-start-of-a-crowdscraping-movement/) came together months before, at another open event, [Transparency Camp](http://transparencycamp.org/), organised by the Sunlight Foundation. OpenCorporates decided they’d team up with three NGOs at OKFestival ([Open Knowledge Germany](http://okfn.de/), [Code for Africa](http://www.codeforafrica.org/) and [Sunlight Foundation](http://sunlightfoundation.com/)) in order to scrape information about German companies, African licence data and US political finance data. By partnering with these three organisations who require access to this data to do the work that they do, it made the whole campaign more tangible for participants who were able to see exactly why they were spending hours in the heat writing bots. 
 
-<div class="pull-left" style="width:350px;">
+<div class="pull">
 {% include image.html filename="14685278044_6782d86534_z.jpg" alt="Flash Hacks Under the Berlin Sun" %}
 </div>
 
