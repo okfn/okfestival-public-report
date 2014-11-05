@@ -11,3 +11,8 @@ github_username:
 
 # Build settings
 markdown: kramdown
+
+
+# to allow redirects for pages
+gems:
+  - jekyll-redirect-from

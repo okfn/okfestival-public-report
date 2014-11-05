@@ -137,7 +137,12 @@ A sampling of the images from the <a href="https://www.flickr.com/groups/okfesti
     });
 
 
-
+// var container = document.getElementById('gallery-1');
+// var msnry = new Masonry( container, {
+//   itemSelector: 'li',
+//   columnWidth: container.querySelector( '.grid-sizer' ),
+//   gutter: 10
+// });
 
 </script>
 

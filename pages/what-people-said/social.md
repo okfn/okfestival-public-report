@@ -29,5 +29,4 @@ Open Knowledge Festival aims to encouraging people to plan seeds of discussion, 
 
 <blockquote class="twitter-tweet" lang="en"><p>Ironic message of the day from the <a href="https://twitter.com/OKFestival">@OKFestival</a> <a href="https://twitter.com/hashtag/OpenKnowledge?src=hash">#OpenKnowledge</a> h/t <a href="https://twitter.com/jonworth">@jonworth</a> <a href="https://twitter.com/hashtag/copyright?src=hash">#copyright</a> <a href="https://twitter.com/hashtag/okfest14?src=hash">#okfest14</a> <a href="http://t.co/b1NGG6kGdD">pic.twitter.com/b1NGG6kGdD</a></p>&mdash; Neelie Kroes (@NeelieKroesEU) <a href="https://twitter.com/NeelieKroesEU/status/489788062642487296">July 17, 2014</a></blockquote>
 
-
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

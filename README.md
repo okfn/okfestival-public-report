@@ -43,9 +43,15 @@ Content in the pages are described with [markdown](http://daringfireball.net/pro
 
 Because the markup for Images and Quotes can be cumbersome to copy and paste, they use includes. The includes are formatted as follows.
 
+Please be careful when copying and pasting this code as non-standard quotes can cause errors.
+
 Images:
 
     {% include image.html filename="NameOfImage.jpg" alt="Accessible alternate text" caption="Caption that goes under the image" %}
+
+If you need to add a link to the photographer, and in HTML and make sure the inner quotes are single quotes.
+
+  {% include image.html filename="NameOfImage.jpg" alt="Accessible alternate text" caption="Caption that goes under the image. Photo take by <a href='link'>Photographer Name</a>." %}
 
 Quotes:
 
