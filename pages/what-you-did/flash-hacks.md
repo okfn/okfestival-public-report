@@ -25,7 +25,7 @@ gallery_item:
 Technology and the people using it to effect change are at the heart of the open knowledge movement and at OKFestival over 60 developers took time out of their busy schedules to sit in the scorching Berlin sun and help [OpenCorporates](http://opencorporates.com/) and three NGOs liberate over 10 million data points.
 
 <div class="pull">
-{% include image.html filename="Hera_Hussain.jpg" alt="OKFestival Session" caption=“<a href='https://twitter.com/herahussain'>Hera Hussain</a>." %}
+{% include image.html filename="Hera_Hussain.jpg" alt="Hera at Flashhacks" caption=“<a href='https://twitter.com/herahussain'>Hera Hussain</a> wrangling developers for #flashhacks." %}
 </div>
 
 OpenCorporates aims to fulfil a simple mission – have an open URL for every company in the world. Unfortunately, at the moment, most data about companies is not open, it’s locked away in PDFs and on government and company websites making it nearly impossible to link it back to the company itself. While governments – the owners of a significant amount of corporate data – have embraced open data and have even expressed their willingness to open up company registries for example, gaining access to this data in open formats has been slow; while we wait, citizens are deprived of essential information needed to understand the complicated corporate web. OpenCorporates is not waiting and for the last years they their tiny team has been scraping government and company websites to populate an open database of corporate information.
