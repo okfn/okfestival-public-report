@@ -17,7 +17,7 @@ gallery_item:
 
 ---
 
-## #FlashHacks: Unlocking 10 Million Data Points in 10 Days
+## FlashHacks: Unlocking 10 Million Data Points in 10 Days
 
 <span class="summary">We spoke with Hera Hussain, Community Manager at OpenCorporates, about their decision to launch their new crowd scraping programme at OKFestival, their #FlashHacks campaign to scrape 10 million data points in 10 days and the overall collaborative spirit of the open knowledge movement – Here is what we found!</span>
 
