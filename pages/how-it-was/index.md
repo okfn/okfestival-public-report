@@ -65,85 +65,19 @@ A sampling of the images from the <a href="https://www.flickr.com/groups/okfesti
 <ul>
     <li class="grid-sizer"></li>
     {% for photo in page.gallery.photos %}
-    <li><a href="{{photo.img}}" data-imagelightbox="e"><img src="{{photo.thumb}}" alt="{{photo.alt}}" /></a></li>
+    <li><a href="{{photo.img}}"><img src="{{photo.thumb}}" alt="{{photo.alt}}" /></a></li>
     {% endfor %}
 </ul>
 </div>
 
-<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<!-- <script src="{{ "/static/js/vendor/masonry.pkgd.min.js" | prepend: site.baseurl }}" ></script>
- -->
-<script src="/static/js/vendor/imagelightbox.min.js"></script>
+<link rel="stylesheet" href="/static/js/vendor/photoswipe/photoswipe.css">
+<script src="/static/js/vendor/photoswipe/simple-inheritance.min.js"></script>
+<script src="/static/js/vendor/photoswipe/code-photoswipe-1.0.11.min.js"></script>
 <script>
-    $( function()
-    {
-        // OVERLAY
-
-            overlayOn = function()
-            {
-                $( '<div id="imagelightbox-overlay"></div>' ).appendTo( 'body' );
-            },
-            overlayOff = function()
-            {
-                $( '#imagelightbox-overlay' ).remove();
-            },
-
-         // ARROWS
-
-            arrowsOn = function( instance, selector )
-            {
-                var $arrows = $( '<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>' );
-
-                $arrows.appendTo( 'body' );
-
-                $arrows.on( 'click touchend', function( e )
-                {
-                    e.preventDefault();
-
-                    var $this   = $( this ),
-                        $target = $( selector + '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ),
-                        index   = $target.index( selector );
-
-                    if( $this.hasClass( 'imagelightbox-arrow-left' ) )
-                    {
-                        index = index - 1;
-                        if( !$( selector ).eq( index ).length )
-                            index = $( selector ).length;
-                    }
-                    else
-                    {
-                        index = index + 1;
-                        if( !$( selector ).eq( index ).length )
-                            index = 0;
-                    }
-
-                    instance.switchImageLightbox( index );
-                    return false;
-                });
-            },
-            arrowsOff = function()
-            {
-                $( '.imagelightbox-arrow' ).remove();
-            };
-
-            var instanceF = $( 'li a' ).imageLightbox(
-        {
-            onStart:        function() { overlayOn(); arrowsOn( instanceF, $( 'li a' ) ); },
-            onEnd:          function() { overlayOff(); arrowsOff(); },
-            onLoadStart:    function() {  },
-            onLoadEnd:      function() {  $( '.imagelightbox-arrow' ).css( 'display', 'block' ); }
-        });
-
-    });
-
-
-// var container = document.getElementById('gallery-1');
-// var msnry = new Masonry( container, {
-//   itemSelector: 'li',
-//   columnWidth: container.querySelector( '.grid-sizer' ),
-//   gutter: 10
-// });
-
+    // Set up PhotoSwipe with all anchor tags in the Gallery container
+    document.addEventListener('DOMContentLoaded', function(){
+      Code.photoSwipe('a', '#gallery-1');
+    }, false);
 </script>
 
 ## Podcasts
@@ -156,9 +90,7 @@ A sampling of the images from the <a href="https://www.flickr.com/groups/okfesti
 
 <a href="https://twitter.com/alexfink">Alex Fink</a> brought the <a title="OKFestival podcasts at the OKCast" href="http://okcast.org/tag/okfestival2014/">OKCast</a> to OKFestival and produced extensive audio coverage of the event, including interviews with keynote speakers and other presenters.
 
-
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/50785840&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
 
 ## Session notes
 
