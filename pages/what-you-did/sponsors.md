@@ -40,7 +40,7 @@ OKFestival depends on the generous support from sponsors. We are also particular
 As donors are an essential component of the global open knowledge movement and a major actor in the open knowledge ecosystem, it was essential for us to create a space in which the Festival’s sponsors as well as other donors in the space were able to come together and work with the community to set priorities for the future of the movement, develop new projects and partnerships and ultimately strengthen our shared vision.
 
 <div class="pull">
-{% include image.html filename="14736797565_9f2e629d9e_z.jpg" alt="Photo by Gregor Fister" caption="Picture by <a href='https://www.flickr.com/photos/okfn/14736797565/in/pool-okfestival2014/'>Gregor Fisher</a>." %}
+{% include image.html filename="14736797565_9f2e629d9e_z.jpg" alt="Photo by Gregor Fister" caption="Picture by <a href='https://www.flickr.com/photos/okfn/14736797565/in/pool-okfestival2014/'>Gregor Fischer</a>." %}
 </div>
 
 # Google Does Their Homework (And Some of Ours)
@@ -56,7 +56,7 @@ Eric Hysen, who heads up Google’s elections and civic engagement products and 
 [Designing for Collective Action](http://sched.co/T1n56q), the research-fueled session facilitated by Stef and the [Knight Foundation](http://www.knightfoundation.org/) shared stories on how to build civic applications which actually succeed in helping the users. During the last year Google and Knight Foundation have focused on understanding the work and needs of users and developers of civic technology: citizens, governments and civic activists. They took the opportunity to be at OKFestival to connect with a variety of stakeholders working in the field, with the aim of encouraging sharing, discussions and learning from common barriers which governments and civic technologists face in developing their applications. As a result of the session and an eagerness from participants to do more, Google will be publishing a white paper in the coming months with the goal of informing the direction of future research. We look forward to hearing their proposals!
 
 <div class="pull">
-{% include image.html filename="14756640153_fb9deb951e_z.jpg" alt="Photo by Gregor Fister" caption="Picture by <a href='https://www.flickr.com/photos/okfn/14756640153/in/pool-okfestival2014/'>Gregor Fisher</a>." %}
+{% include image.html filename="14756640153_fb9deb951e_z.jpg" alt="Photo by Gregor Fister" caption="Picture by <a href='https://www.flickr.com/photos/okfn/14756640153/in/pool-okfestival2014/'>Gregor Fischer</a>." %}
 </div>
 
 # Fostering impact with Making All Voices Count
@@ -87,7 +87,7 @@ While there was extraordinary value for the Making All Voices Count programme in
 {% include quote.html cite="Duncan Edwards" link="" quote="A particularly exciting dimension from my perspective, as someone based in a research organisation, is the role Making All Voices Count can play in building an evidence base as to how open data and technology can improve governance. Research is scarce in this area and we would hope a key legacy of the programme is a greater evidence base that can inform and improve practice." %}
 
 <div class="pull">
-{% include image.html filename="14733618721_2fe235bfec_z.jpg" alt="Photo by Gregor Fisher" caption="Picture by <a href='https://www.flickr.com/photos/okfn/14733618721/in/pool-okfestival2014/'>Gregor Fisher</a>" %}
+{% include image.html filename="14733618721_2fe235bfec_z.jpg" alt="Photo by Gregor Fisher" caption="Picture by <a href='https://www.flickr.com/photos/okfn/14733618721/in/pool-okfestival2014/'>Gregor Fischer</a>" %}
 </div>
 
 A key point mentioned by both Stef and Duncan was that their attendance at OKFestival allowed them to connect with a number of people dealing with the same issues that their organisations are also working to tackle. In many ways this is what Open Knowledge hopes to achieve by gathering people together in a shared, collaborative space. One of the key objectives of OKFestival is to break down some of the walls between big organisations and small citizen groups, between “developed” countries and “emerging” economies and between for profit companies and not-for-profit NGOs. We believe it is our different perspectives, different approaches and, at times, different beliefs that equip us to further our shared mission and support each other in changing our societies for the better.
