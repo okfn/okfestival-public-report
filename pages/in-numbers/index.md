@@ -37,5 +37,6 @@ identifier: in-numbers
 
 ## Where did the money come from?
 
-{% include image.html filename="01_money.png" alt="" caption="" %}
+Visualisations were produced prior to the final invoices coming in, for up to date numbers on where the money came from and how it was spent see our <a href="https://docs.google.com/spreadsheets/d/1vCCJQTUlBc3Aam2DSzYpU7AX5EKAnrSWaf47mChiP3E/edit?usp=sharing">income and expenses spreadsheet</a>.
 
+{% include image.html filename="01_money.png" alt="" caption="" %}
