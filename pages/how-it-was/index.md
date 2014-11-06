@@ -54,6 +54,7 @@ gallery:
 
 Check out the official Open Knowledge Festival YouTube playlist below, from <a title="Open Knowledge YouTube Channel" href="https://www.youtube.com/user/openknowledgefdn/">Open Knowledge</a>, and browse <a href="https://www.youtube.com/results?search_query=%23okfest14">community generated videos on YouTube #okfest14</a>.
 
+<iframe src="//www.youtube.com/embed/videoseries?list=PLOGV29UsPM6icd01P6fwU74PQEAXL0H4q" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
 
 
 ## Pictures

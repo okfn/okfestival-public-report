@@ -34,12 +34,26 @@
             line-height: 16px;
             display: block;
         }
+
+        .short {
+            display: none;
+        }
+
+        @include media-query($on-palm) {
+            a {
+                display: none;
+            }
+
+            .short {
+                display: block;
+            }
+        }
     }
 }
 
 .site-title {
     background: url("../images/okfest-logo.svg") no-repeat 50% 20px;
-    background-size: 250px 94px;
+    background-size: 250px 92px;
 
     font-family: $heading-font-family;
     font-size: $large-font-size;
@@ -354,6 +368,11 @@
         -webkit-box-shadow: 0 8px 6px -6px #605E5E;
         -moz-box-shadow: 0 8px 6px -6px #605E5E;
         box-shadow: 0 8px 6px -6px #605E5E;
+
+        @include media-query($on-palm) {
+            min-height: 80px;
+            padding: 0 5px 0 0;
+        }
     }
 
     & .section-link {
@@ -379,10 +398,6 @@
         float: left;
         margin-bottom: 0;
 
-        @include media-query($on-palm) {
-            float: center;
-        }
-
         & {
             line-height: 1.4em;
             padding-bottom: 0;
@@ -392,6 +407,18 @@
         &:before {
             margin-top: 5px;
         }
+
+        @include media-query($on-palm) {
+            line-height: 1.1em;
+            font-size: 28px;
+            padding-left: 0;
+
+            &:before {
+                background-size: 78%;
+                background-position: 50% 50%;
+            }
+        }
+
 
     }
 
@@ -667,6 +694,9 @@ iframe {
 * Blockquotes
 */
 
+.twitter-tweet {
+    width: 100%;
+}
 
 .quote {
     margin-bottom: 3em;
@@ -693,9 +723,9 @@ iframe {
 }
 
 .how-it-was {
-    iframe {
-        margin-top: 2em;
-    }
+    // iframe {
+    //     margin-top: 2em;
+    // }
 }
 
 /**/
@@ -805,7 +835,8 @@ footer {
 
     .cc {
         width: 50%;
-        line-height: 1.3em;
+        line-height: 1em;
+        padding-top: 0.1em;
         margin-bottom: 0;
         float: left;
 
